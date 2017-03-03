@@ -96,6 +96,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = loginNavController
     }
     
+    func addSideMenu() {
+        let menuController = SideMenuViewController(nibName: "SideMenuViewController", bundle: nil)
+        let sideMenuViewController = RESideMenu.init(contentViewController: self.tabBar, leftMenuViewController: menuController, rightMenuViewController: nil)
+        //sideMenuViewController?.backgroundImage = UIImage(named: "menuBack")
+        sideMenuViewController?.menuPreferredStatusBarStyle = UIStatusBarStyle.default
+        sideMenuViewController?.contentViewShadowColor = UIColor.black
+        sideMenuViewController?.contentViewShadowOffset = CGSize(width: 0, height: 0)
+        sideMenuViewController?.contentViewShadowOpacity = 0.6
+        sideMenuViewController?.contentViewShadowEnabled = true
+        self.window!.rootViewController = sideMenuViewController
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

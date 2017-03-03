@@ -45,6 +45,7 @@ class QHLoginViewController: UIViewController {
 
 extension QHLoginViewController:UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField .resignFirstResponder()
         return false
     }
 }

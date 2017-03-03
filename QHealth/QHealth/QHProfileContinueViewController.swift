@@ -14,11 +14,6 @@ class QHProfileContinueViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.navigationController?.title = "Registration"
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -32,6 +27,7 @@ class QHProfileContinueViewController: UIViewController {
 
 extension QHProfileContinueViewController:UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField .resignFirstResponder()
         return false
     }
 }

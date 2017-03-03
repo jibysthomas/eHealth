@@ -33,6 +33,7 @@ class QHProfileViewController: UIViewController {
 
 extension QHProfileViewController:UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField .resignFirstResponder()
         return false
     }
 }
