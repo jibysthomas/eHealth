@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SideMenu.xcscheme</key>
+		<key>RESideMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1A2F9BF6E8A02A7253A6F065F144111F</key>
+		<key>957066E8C51970B0DC067DA3C40FFD92</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>50EA61419B0E04F28FCCAFCD09005671</key>
+		<key>AF10608D6909B391CC8C4399675D3479</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,120 +7,114 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B4DCE902F307DE039FE0E538C89F668 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35093DD994A172D53932151A6DBAEBC3 /* SideMenu-dummy.m */; };
-		70668EED9103806F738045CDC2DE0BAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		83DCC37C229B51AA3DF0F4809555570C /* Pods-QHealth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C102D8304A1DE80711B36AD00047CCB6 /* Pods-QHealth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A23F290576EB7C0AE79683C2D0012DAF /* Pods-QHealth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AB288F7477789E0EF7BE5F300AFE3A /* Pods-QHealth-dummy.m */; };
-		B0F875EE5A51E0FE2869F03D9CE2613E /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4F5E4E267C03BAC23C64C2DEC825B6 /* UISideMenuNavigationController.swift */; };
-		B8EE2246A7C75F4FE0BDEDDFE14E2E44 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E72E3ED37D9B76098CC2B9BB49D386DF /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C08FB15812B9892018782B7A6CF78D8F /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF13F0BB1AB42B2F1C6A72A59BD82F /* UITableViewVibrantCell.swift */; };
-		DDB154766D87F5B3D0D537AA7A4A49A6 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DB323BB3B2B0A52D555C01DBCD0305 /* SideMenuTransition.swift */; };
-		E9EAD6CB26400C3D0F63CFA1E593C415 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		EFC5913CD0035F605814E25254BEDDAF /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0049F4BA49D06E8F4C1A0DF192A1FB11 /* SideMenuManager.swift */; };
+		05D59617DA80F9E0CA8C7108B3079767 /* RESideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C75439ECFBA5640E075D0F28971291 /* RESideMenu-dummy.m */; };
+		1D6A17C88D38FAF7D343B022E75636DE /* RESideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EAEFA9B8A090026CA853981F09676B /* RESideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27DEB3C16BC83F8A8E3A753CCD99CFCE /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A9EF7645B79AAF56B3D177BEC2D0F0 /* UIViewController+RESideMenu.m */; };
+		3499B2DF37BF22E2E8852890C01E15A6 /* Pods-QHealth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AB288F7477789E0EF7BE5F300AFE3A /* Pods-QHealth-dummy.m */; };
+		34CED843EE51B95CE676C95C189D5F21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		4BBC1C8D17D5B0F35796B4192CBF7EED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		50D127C95FED4E1BD42263A73FFC9375 /* UIViewController+RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBE31AFA2EDCDB9CB4D57B0B4DFB664 /* UIViewController+RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E46635D1E2E554BBB080E296E52D66A /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D55DC4A83796E10E6CAE6C60E91B2F6C /* RECommonFunctions.m */; };
+		A8A3D79D24C044004A2F256C1FF84C75 /* RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 721A9EC45D8AF732A64A294FF1068197 /* RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD64BCAF2EC58D00996A3EEA72EC520E /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D90FA4AA9F122E9D6F9EB7E5820E717F /* RESideMenu.m */; };
+		E2B6F2E97579421408CFEC21F1A1FB42 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 63976F1EF1E1DE5C7B513467E185679B /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2452F04D81094E407273FC64F38F48E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		FB2AE4BE0C533EDD6219D5C39895DBD3 /* Pods-QHealth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C102D8304A1DE80711B36AD00047CCB6 /* Pods-QHealth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2EEAF2821FFF430242576F9C46737FDC /* PBXContainerItemProxy */ = {
+		C7029827C8622A9E9E55CAF1C7D6C17A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1A2F9BF6E8A02A7253A6F065F144111F;
-			remoteInfo = SideMenu;
+			remoteGlobalIDString = 957066E8C51970B0DC067DA3C40FFD92;
+			remoteInfo = RESideMenu;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0049F4BA49D06E8F4C1A0DF192A1FB11 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
-		35093DD994A172D53932151A6DBAEBC3 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
-		38FF13F0BB1AB42B2F1C6A72A59BD82F /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		00AF10C729029C30F65712025A943AD3 /* Pods_QHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QHealth.framework; path = "Pods-QHealth.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F362055EF2F9A396043B90A6F56304A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBE31AFA2EDCDB9CB4D57B0B4DFB664 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RESideMenu.h"; path = "RESideMenu/UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3BCD830F5236D03689651E4C597AF1A5 /* Pods-QHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QHealth.release.xcconfig"; sourceTree = "<group>"; };
 		5C937882185B2855B8A4C4770BA7C6FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E4CA3CFD53A4C0E83D68D4DACE82C3D /* RESideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RESideMenu.framework; path = RESideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		619171A983368E246F75E3F30FB3AD6D /* Pods-QHealth-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QHealth-resources.sh"; sourceTree = "<group>"; };
-		6CF81980B2B851D5ED4718BC47020609 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
-		782BFEEE3131C4FF771CC6E8B0FA70A6 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63976F1EF1E1DE5C7B513467E185679B /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = RESideMenu/RECommonFunctions.h; sourceTree = "<group>"; };
+		65EAEFA9B8A090026CA853981F09676B /* RESideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-umbrella.h"; sourceTree = "<group>"; };
+		721A9EC45D8AF732A64A294FF1068197 /* RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RESideMenu.h; path = RESideMenu/RESideMenu.h; sourceTree = "<group>"; };
 		7B09B1087912359305B0FE92BF096CF2 /* Pods-QHealth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QHealth-acknowledgements.plist"; sourceTree = "<group>"; };
+		8131863712AD1CA6F3A94AA3E410C587 /* RESideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-prefix.pch"; sourceTree = "<group>"; };
 		84E90AF3E385F6DB27854E1AC48E8113 /* Pods-QHealth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QHealth.modulemap"; sourceTree = "<group>"; };
 		88BEE5751D1ED704E35BEA5E8B19011D /* Pods-QHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QHealth.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		995DC884942ED5E9B85C72A343F9AB5D /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SideMenu.modulemap; sourceTree = "<group>"; };
-		A9DB323BB3B2B0A52D555C01DBCD0305 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
 		B9CC3F9F05E54B64A1E87291B8AA3309 /* Pods-QHealth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QHealth-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C102D8304A1DE80711B36AD00047CCB6 /* Pods-QHealth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QHealth-umbrella.h"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA64DE5B618D6432DB97F81D9213E193 /* RESideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RESideMenu.xcconfig; sourceTree = "<group>"; };
 		CDFD5C207C7725C5910C0ED5DA989B58 /* Pods-QHealth-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QHealth-frameworks.sh"; sourceTree = "<group>"; };
 		D4AB288F7477789E0EF7BE5F300AFE3A /* Pods-QHealth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QHealth-dummy.m"; sourceTree = "<group>"; };
-		D6FAEB9EB9C773D88694327A5B415552 /* Pods_QHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QHealth.framework; path = "Pods-QHealth.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E72E3ED37D9B76098CC2B9BB49D386DF /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
-		EA4F5E4E267C03BAC23C64C2DEC825B6 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
-		FBB886EBE499ADAF32629979A36A3169 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
-		FC0BD2A3E45C40B9C9716812311BF563 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D55DC4A83796E10E6CAE6C60E91B2F6C /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = RESideMenu/RECommonFunctions.m; sourceTree = "<group>"; };
+		D8A9EF7645B79AAF56B3D177BEC2D0F0 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RESideMenu.m"; path = "RESideMenu/UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		D90FA4AA9F122E9D6F9EB7E5820E717F /* RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESideMenu.m; path = RESideMenu/RESideMenu.m; sourceTree = "<group>"; };
+		E5C75439ECFBA5640E075D0F28971291 /* RESideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RESideMenu-dummy.m"; sourceTree = "<group>"; };
+		F3E1FF359D1DA4122F91341EFDB85D4E /* RESideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RESideMenu.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00DE17DE1437A307FF319A228F3F792E /* Frameworks */ = {
+		72CAF58611945A8170728EDD914924BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70668EED9103806F738045CDC2DE0BAE /* Foundation.framework in Frameworks */,
+				F2452F04D81094E407273FC64F38F48E /* Foundation.framework in Frameworks */,
+				4BBC1C8D17D5B0F35796B4192CBF7EED /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DAF662E9E6E430528E8CB74AE5040E2 /* Frameworks */ = {
+		D8F01A35CBD9CCFBB67E378E604DBF39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9EAD6CB26400C3D0F63CFA1E593C415 /* Foundation.framework in Frameworks */,
+				34CED843EE51B95CE676C95C189D5F21 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A0B4BC6BF684C3641660480BF38D3C5 /* Products */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D6FAEB9EB9C773D88694327A5B415552 /* Pods_QHealth.framework */,
-				782BFEEE3131C4FF771CC6E8B0FA70A6 /* SideMenu.framework */,
+				C7AB6F27FF3606F9360547F8F1977A63 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4C7DECB9505A3661801AB8D77F9249EF /* Pods */ = {
+		5CAC5E507715BCF8A5904F14310E860E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6139AD2A3B1702A32298B3F55914EA43 /* SideMenu */,
+				D05031BDD82F94B4C4A098CF94E8F10D /* RESideMenu */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6139AD2A3B1702A32298B3F55914EA43 /* SideMenu */ = {
+		65CA6DED0056A9CAF229BF1B95C88575 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0049F4BA49D06E8F4C1A0DF192A1FB11 /* SideMenuManager.swift */,
-				A9DB323BB3B2B0A52D555C01DBCD0305 /* SideMenuTransition.swift */,
-				EA4F5E4E267C03BAC23C64C2DEC825B6 /* UISideMenuNavigationController.swift */,
-				38FF13F0BB1AB42B2F1C6A72A59BD82F /* UITableViewVibrantCell.swift */,
-				F9853A6F97D22D33E240344F832559E2 /* Support Files */,
+				00AF10C729029C30F65712025A943AD3 /* Pods_QHealth.framework */,
+				5E4CA3CFD53A4C0E83D68D4DACE82C3D /* RESideMenu.framework */,
 			);
-			name = SideMenu;
-			path = SideMenu;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4C7DECB9505A3661801AB8D77F9249EF /* Pods */,
-				2A0B4BC6BF684C3641660480BF38D3C5 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5CAC5E507715BCF8A5904F14310E860E /* Pods */,
+				65CA6DED0056A9CAF229BF1B95C88575 /* Products */,
 				B9ECA39ACC503DC2BD1429F2A28EF2A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -133,12 +127,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */,
+				BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9FE99B96BBBDBF28E556B54FE7E0E36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F362055EF2F9A396043B90A6F56304A /* Info.plist */,
+				F3E1FF359D1DA4122F91341EFDB85D4E /* RESideMenu.modulemap */,
+				CA64DE5B618D6432DB97F81D9213E193 /* RESideMenu.xcconfig */,
+				E5C75439ECFBA5640E075D0F28971291 /* RESideMenu-dummy.m */,
+				8131863712AD1CA6F3A94AA3E410C587 /* RESideMenu-prefix.pch */,
+				65EAEFA9B8A090026CA853981F09676B /* RESideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RESideMenu";
+			sourceTree = "<group>";
+		};
+		D05031BDD82F94B4C4A098CF94E8F10D /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				63976F1EF1E1DE5C7B513467E185679B /* RECommonFunctions.h */,
+				D55DC4A83796E10E6CAE6C60E91B2F6C /* RECommonFunctions.m */,
+				721A9EC45D8AF732A64A294FF1068197 /* RESideMenu.h */,
+				D90FA4AA9F122E9D6F9EB7E5820E717F /* RESideMenu.m */,
+				2BBE31AFA2EDCDB9CB4D57B0B4DFB664 /* UIViewController+RESideMenu.h */,
+				D8A9EF7645B79AAF56B3D177BEC2D0F0 /* UIViewController+RESideMenu.m */,
+				C9FE99B96BBBDBF28E556B54FE7E0E36 /* Support Files */,
+			);
+			name = RESideMenu;
+			path = RESideMenu;
 			sourceTree = "<group>";
 		};
 		EAE61220185E296B45624F529C53B163 /* Pods-QHealth */ = {
@@ -159,75 +183,64 @@
 			path = "Target Support Files/Pods-QHealth";
 			sourceTree = "<group>";
 		};
-		F9853A6F97D22D33E240344F832559E2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FC0BD2A3E45C40B9C9716812311BF563 /* Info.plist */,
-				995DC884942ED5E9B85C72A343F9AB5D /* SideMenu.modulemap */,
-				FBB886EBE499ADAF32629979A36A3169 /* SideMenu.xcconfig */,
-				35093DD994A172D53932151A6DBAEBC3 /* SideMenu-dummy.m */,
-				6CF81980B2B851D5ED4718BC47020609 /* SideMenu-prefix.pch */,
-				E72E3ED37D9B76098CC2B9BB49D386DF /* SideMenu-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SideMenu";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28805E01AA83BDB1E511738F199C7B37 /* Headers */ = {
+		123FE42A6386FBA31D9AE4A2047A8002 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83DCC37C229B51AA3DF0F4809555570C /* Pods-QHealth-umbrella.h in Headers */,
+				FB2AE4BE0C533EDD6219D5C39895DBD3 /* Pods-QHealth-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8FFE6F93D8EFD34A548398574127719 /* Headers */ = {
+		76689F67C4A69DEA773C4BD90C3EC96A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8EE2246A7C75F4FE0BDEDDFE14E2E44 /* SideMenu-umbrella.h in Headers */,
+				E2B6F2E97579421408CFEC21F1A1FB42 /* RECommonFunctions.h in Headers */,
+				1D6A17C88D38FAF7D343B022E75636DE /* RESideMenu-umbrella.h in Headers */,
+				A8A3D79D24C044004A2F256C1FF84C75 /* RESideMenu.h in Headers */,
+				50D127C95FED4E1BD42263A73FFC9375 /* UIViewController+RESideMenu.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1A2F9BF6E8A02A7253A6F065F144111F /* SideMenu */ = {
+		957066E8C51970B0DC067DA3C40FFD92 /* RESideMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A57231B4AE634D9F13784FBE415C3FC /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildConfigurationList = 45952739D58B2B611DCFCE845C7AC4E6 /* Build configuration list for PBXNativeTarget "RESideMenu" */;
 			buildPhases = (
-				2C8D981E93983CAC3FAE2C40322A422F /* Sources */,
-				2DAF662E9E6E430528E8CB74AE5040E2 /* Frameworks */,
-				B8FFE6F93D8EFD34A548398574127719 /* Headers */,
+				5657525A7AC148147828349CA1390DA0 /* Sources */,
+				72CAF58611945A8170728EDD914924BB /* Frameworks */,
+				76689F67C4A69DEA773C4BD90C3EC96A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SideMenu;
-			productName = SideMenu;
-			productReference = 782BFEEE3131C4FF771CC6E8B0FA70A6 /* SideMenu.framework */;
+			name = RESideMenu;
+			productName = RESideMenu;
+			productReference = 5E4CA3CFD53A4C0E83D68D4DACE82C3D /* RESideMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		50EA61419B0E04F28FCCAFCD09005671 /* Pods-QHealth */ = {
+		AF10608D6909B391CC8C4399675D3479 /* Pods-QHealth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8760EE2B9D57C8657FA372FAADF320C2 /* Build configuration list for PBXNativeTarget "Pods-QHealth" */;
+			buildConfigurationList = E6470A3ED86E4AED9C8DBA59BD23999A /* Build configuration list for PBXNativeTarget "Pods-QHealth" */;
 			buildPhases = (
-				1EF3704FE4C4C8E60E23CAEEB2066937 /* Sources */,
-				00DE17DE1437A307FF319A228F3F792E /* Frameworks */,
-				28805E01AA83BDB1E511738F199C7B37 /* Headers */,
+				FB6E9E89578EFA295324969CDC2FD667 /* Sources */,
+				D8F01A35CBD9CCFBB67E378E604DBF39 /* Frameworks */,
+				123FE42A6386FBA31D9AE4A2047A8002 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7756EBCFDB8E6E87195A3847FCF405A3 /* PBXTargetDependency */,
+				35480615F0660D2725E7A860C9892054 /* PBXTargetDependency */,
 			);
 			name = "Pods-QHealth";
 			productName = "Pods-QHealth";
-			productReference = D6FAEB9EB9C773D88694327A5B415552 /* Pods_QHealth.framework */;
+			productReference = 00AF10C729029C30F65712025A943AD3 /* Pods_QHealth.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -247,52 +260,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2A0B4BC6BF684C3641660480BF38D3C5 /* Products */;
+			productRefGroup = 65CA6DED0056A9CAF229BF1B95C88575 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50EA61419B0E04F28FCCAFCD09005671 /* Pods-QHealth */,
-				1A2F9BF6E8A02A7253A6F065F144111F /* SideMenu */,
+				AF10608D6909B391CC8C4399675D3479 /* Pods-QHealth */,
+				957066E8C51970B0DC067DA3C40FFD92 /* RESideMenu */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1EF3704FE4C4C8E60E23CAEEB2066937 /* Sources */ = {
+		5657525A7AC148147828349CA1390DA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A23F290576EB7C0AE79683C2D0012DAF /* Pods-QHealth-dummy.m in Sources */,
+				9E46635D1E2E554BBB080E296E52D66A /* RECommonFunctions.m in Sources */,
+				05D59617DA80F9E0CA8C7108B3079767 /* RESideMenu-dummy.m in Sources */,
+				AD64BCAF2EC58D00996A3EEA72EC520E /* RESideMenu.m in Sources */,
+				27DEB3C16BC83F8A8E3A753CCD99CFCE /* UIViewController+RESideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2C8D981E93983CAC3FAE2C40322A422F /* Sources */ = {
+		FB6E9E89578EFA295324969CDC2FD667 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4DCE902F307DE039FE0E538C89F668 /* SideMenu-dummy.m in Sources */,
-				EFC5913CD0035F605814E25254BEDDAF /* SideMenuManager.swift in Sources */,
-				DDB154766D87F5B3D0D537AA7A4A49A6 /* SideMenuTransition.swift in Sources */,
-				B0F875EE5A51E0FE2869F03D9CE2613E /* UISideMenuNavigationController.swift in Sources */,
-				C08FB15812B9892018782B7A6CF78D8F /* UITableViewVibrantCell.swift in Sources */,
+				3499B2DF37BF22E2E8852890C01E15A6 /* Pods-QHealth-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7756EBCFDB8E6E87195A3847FCF405A3 /* PBXTargetDependency */ = {
+		35480615F0660D2725E7A860C9892054 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SideMenu;
-			target = 1A2F9BF6E8A02A7253A6F065F144111F /* SideMenu */;
-			targetProxy = 2EEAF2821FFF430242576F9C46737FDC /* PBXContainerItemProxy */;
+			name = RESideMenu;
+			target = 957066E8C51970B0DC067DA3C40FFD92 /* RESideMenu */;
+			targetProxy = C7029827C8622A9E9E55CAF1C7D6C17A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5E91639C5ACA2A87293DC53204131932 /* Release */ = {
+		173938A0149729B1ADC654A2B5814B84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BCD830F5236D03689651E4C597AF1A5 /* Pods-QHealth.release.xcconfig */;
+			baseConfigurationReference = CA64DE5B618D6432DB97F81D9213E193 /* RESideMenu.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -305,20 +317,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QHealth/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RESideMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QHealth/Pods-QHealth.modulemap";
+				MODULEMAP_FILE = "Target Support Files/RESideMenu/RESideMenu.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QHealth;
+				PRODUCT_NAME = RESideMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -365,72 +374,7 @@
 			};
 			name = Release;
 		};
-		9E4518D054FC43D76D98E22C90EDCBBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBB886EBE499ADAF32629979A36A3169 /* SideMenu.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SideMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A8970DD4EAEB36FF7ACE19011AF8A115 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBB886EBE499ADAF32629979A36A3169 /* SideMenu.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SideMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD9256647A789DC0D1AA23F900214511 /* Debug */ = {
+		6C2AD7235F638C835AB8887BD0D750F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88BEE5751D1ED704E35BEA5E8B19011D /* Pods-QHealth.debug.xcconfig */;
 			buildSettings = {
@@ -459,7 +403,38 @@
 				PRODUCT_NAME = Pods_QHealth;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C88F7ADF8B654AA8F2F2D30D0988BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA64DE5B618D6432DB97F81D9213E193 /* RESideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RESideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RESideMenu/RESideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RESideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -510,18 +485,44 @@
 			};
 			name = Debug;
 		};
+		E7E2A544A1BEEF436996A0163C90B527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCD830F5236D03689651E4C597AF1A5 /* Pods-QHealth.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QHealth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QHealth/Pods-QHealth.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QHealth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A57231B4AE634D9F13784FBE415C3FC /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E4518D054FC43D76D98E22C90EDCBBC /* Debug */,
-				A8970DD4EAEB36FF7ACE19011AF8A115 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -531,11 +532,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8760EE2B9D57C8657FA372FAADF320C2 /* Build configuration list for PBXNativeTarget "Pods-QHealth" */ = {
+		45952739D58B2B611DCFCE845C7AC4E6 /* Build configuration list for PBXNativeTarget "RESideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD9256647A789DC0D1AA23F900214511 /* Debug */,
-				5E91639C5ACA2A87293DC53204131932 /* Release */,
+				9C88F7ADF8B654AA8F2F2D30D0988BF6 /* Debug */,
+				173938A0149729B1ADC654A2B5814B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6470A3ED86E4AED9C8DBA59BD23999A /* Build configuration list for PBXNativeTarget "Pods-QHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2AD7235F638C835AB8887BD0D750F0 /* Debug */,
+				E7E2A544A1BEEF436996A0163C90B527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RESideMenu
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -81,7 +82,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.tabBar = UITabBarController()
         self.tabBar?.setViewControllers([mainNavController, firstNavController, secondNavController,activityNavController], animated: true)
-        self.window?.rootViewController = tabBar
+        addSideMenu()
+        //self.window?.rootViewController = tabBar
         
     }
     

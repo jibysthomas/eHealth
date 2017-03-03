@@ -31,6 +31,8 @@
 		FB00C9021E69A8F50076316C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C9011E69A8F50076316C /* Utilities.swift */; };
 		FB00C9081E69AA6B0076316C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C9071E69AA6B0076316C /* Constants.swift */; };
 		FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBAF64C31E69AF0C0053CC3B /* Setting.plist */; };
+		FBAF64C81E69C2020053CC3B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF64C61E69C2020053CC3B /* SideMenuViewController.swift */; };
+		FBAF64C91E69C2020053CC3B /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBAF64C71E69C2020053CC3B /* SideMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		FB00C9071E69AA6B0076316C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHealth/Pods-QHealth.release.xcconfig"; sourceTree = "<group>"; };
 		FBAF64C31E69AF0C0053CC3B /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Setting.plist; path = ../Setting.plist; sourceTree = "<group>"; };
+		FBAF64C61E69C2020053CC3B /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		FBAF64C71E69C2020053CC3B /* SideMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +202,15 @@
 			name = "View controllers";
 			sourceTree = "<group>";
 		};
+		FBAF64C51E69C1D60053CC3B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF64C61E69C2020053CC3B /* SideMenuViewController.swift */,
+				FBAF64C71E69C2020053CC3B /* SideMenuViewController.xib */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAF64C91E69C2020053CC3B /* SideMenuViewController.xib in Resources */,
 				FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */,
 				17D7370F1E69C19A005AD265 /* QHLoginViewController.xib in Resources */,
 				17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */,
@@ -335,6 +349,7 @@
 				17D737121E69C945005AD265 /* QHProfileContinueViewController.swift in Sources */,
 				17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */,
 				17F5A8841E69929600A20B28 /* AppDelegate.swift in Sources */,
+				FBAF64C81E69C2020053CC3B /* SideMenuViewController.swift in Sources */,
 				FB00C9021E69A8F50076316C /* Utilities.swift in Sources */,
 				FB00C8FB1E69A3CB0076316C /* UserAgreeViewController.swift in Sources */,
 				17F5A8861E69929600A20B28 /* FirstViewController.swift in Sources */,
