@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QHProfileContinueViewController" customModule="QHealth" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Height" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FTl-z0-XfD">
+                    <rect key="frame" x="25" y="100" width="100" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="5IT-K1-yaQ"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hx2-bk-DNO">
+                    <rect key="frame" x="25" y="150" width="100" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="P24-1K-Jis"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Bloog group" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MoF-bS-dJB">
+                    <rect key="frame" x="25" y="200" width="100" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Qri-YY-8vc"/>
+                    </connections>
+                </textField>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ihc-6P-Lnz">
+                    <rect key="frame" x="25" y="301" width="325" height="216"/>
+                    <date key="date" timeIntervalSinceReferenceDate="510249516.07994801">
+                        <!--2017-03-03 15:58:36 +0000-->
+                    </date>
+                </datePicker>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ppn-hn-yzE">
+                    <rect key="frame" x="25" y="255" width="325" height="29"/>
+                    <segments>
+                        <segment title="Male"/>
+                        <segment title="Female"/>
+                    </segments>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDd-54-Zma">
+                    <rect key="frame" x="135" y="108" width="21" height="15"/>
+                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ay5-6a-ug4">
+                    <rect key="frame" x="134" y="157.5" width="22" height="15"/>
+                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qb7-7G-ngR">
+                    <rect key="frame" x="0.0" y="602" width="375" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="L6m-vP-jAm"/>
+                    </constraints>
+                    <state key="normal" title="Register"/>
+                    <connections>
+                        <action selector="completeRegistration:" destination="-1" eventType="touchUpInside" id="iW9-W5-Hjl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CDd-54-Zma" secondAttribute="trailing" constant="25" id="4is-nT-pdq"/>
+                <constraint firstItem="hx2-bk-DNO" firstAttribute="height" secondItem="MoF-bS-dJB" secondAttribute="height" id="4po-Ar-Hqu"/>
+                <constraint firstItem="ay5-6a-ug4" firstAttribute="leading" secondItem="hx2-bk-DNO" secondAttribute="trailing" constant="9" id="7RO-dG-xb3"/>
+                <constraint firstItem="Ppn-hn-yzE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="8mO-xM-69u"/>
+                <constraint firstItem="FTl-z0-XfD" firstAttribute="leading" secondItem="hx2-bk-DNO" secondAttribute="leading" id="EAH-Jh-P3q"/>
+                <constraint firstItem="FTl-z0-XfD" firstAttribute="trailing" secondItem="hx2-bk-DNO" secondAttribute="trailing" id="JH6-z7-4QK"/>
+                <constraint firstItem="hx2-bk-DNO" firstAttribute="top" secondItem="FTl-z0-XfD" secondAttribute="bottom" constant="20" id="Lsf-mN-39b"/>
+                <constraint firstAttribute="bottom" secondItem="qb7-7G-ngR" secondAttribute="bottom" id="UfT-zz-Mb4"/>
+                <constraint firstItem="hx2-bk-DNO" firstAttribute="trailing" secondItem="MoF-bS-dJB" secondAttribute="trailing" id="V9A-cY-2iI"/>
+                <constraint firstItem="FTl-z0-XfD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="VIu-96-1dI"/>
+                <constraint firstAttribute="trailing" secondItem="ihc-6P-Lnz" secondAttribute="trailing" constant="25" id="VLc-M0-XBu"/>
+                <constraint firstAttribute="trailing" secondItem="qb7-7G-ngR" secondAttribute="trailing" id="X7A-1M-sw7"/>
+                <constraint firstItem="FTl-z0-XfD" firstAttribute="width" secondItem="hx2-bk-DNO" secondAttribute="width" id="XTS-Iv-kbo"/>
+                <constraint firstItem="FTl-z0-XfD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="XvM-FI-f7b"/>
+                <constraint firstItem="Ppn-hn-yzE" firstAttribute="top" secondItem="MoF-bS-dJB" secondAttribute="bottom" constant="25" id="amf-xT-3Ta"/>
+                <constraint firstItem="qb7-7G-ngR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dPD-Nd-Fqe"/>
+                <constraint firstItem="hx2-bk-DNO" firstAttribute="width" secondItem="MoF-bS-dJB" secondAttribute="width" id="dYO-vE-yhr"/>
+                <constraint firstItem="ihc-6P-Lnz" firstAttribute="top" secondItem="Ppn-hn-yzE" secondAttribute="bottom" constant="18" id="hNZ-2i-RKh"/>
+                <constraint firstItem="CDd-54-Zma" firstAttribute="leading" secondItem="FTl-z0-XfD" secondAttribute="trailing" constant="10" id="kmp-y8-9JA"/>
+                <constraint firstItem="CDd-54-Zma" firstAttribute="centerY" secondItem="FTl-z0-XfD" secondAttribute="centerY" id="ooW-pW-zDr"/>
+                <constraint firstItem="ihc-6P-Lnz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="rn8-pD-XBj"/>
+                <constraint firstItem="FTl-z0-XfD" firstAttribute="height" secondItem="hx2-bk-DNO" secondAttribute="height" id="svF-Ns-TDs"/>
+                <constraint firstAttribute="trailing" secondItem="Ppn-hn-yzE" secondAttribute="trailing" constant="25" id="ua4-Rq-Ouc"/>
+                <constraint firstItem="hx2-bk-DNO" firstAttribute="leading" secondItem="MoF-bS-dJB" secondAttribute="leading" id="vbc-PB-Ttc"/>
+                <constraint firstItem="ay5-6a-ug4" firstAttribute="trailing" secondItem="CDd-54-Zma" secondAttribute="trailing" id="vc6-wF-VR6"/>
+                <constraint firstItem="ay5-6a-ug4" firstAttribute="centerY" secondItem="hx2-bk-DNO" secondAttribute="centerY" id="vlF-Ym-fm7"/>
+                <constraint firstItem="MoF-bS-dJB" firstAttribute="top" secondItem="hx2-bk-DNO" secondAttribute="bottom" constant="20" id="zIO-Re-FLD"/>
+            </constraints>
+            <point key="canvasLocation" x="-92.5" y="47.5"/>
+        </view>
+    </objects>
+</document>

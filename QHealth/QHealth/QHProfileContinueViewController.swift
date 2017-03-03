@@ -1,5 +1,5 @@
 //
-//  QHProfileViewController.swift
+//  QHProfileContinueViewController.swift
 //  QHealth
 //
 //  Created by Anand on 3/3/17.
@@ -8,30 +8,29 @@
 
 import UIKit
 
-class QHProfileViewController: UIViewController {
+class QHProfileContinueViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.title = "Create an account"
+        self.navigationController?.title = "Registration"
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func continueButtonClicked(_ sender: Any) {
-        let profileContinueController = QHProfileContinueViewController(nibName:"QHProfileContinueViewController",bundle:nil)
-        self.navigationController?.pushViewController(profileContinueController, animated: true)
+    
+    @IBAction func completeRegistration(_ sender: Any) {
+        Utilities.getAppDelegate().createTabController()
     }
-
 }
 
-extension QHProfileViewController:UITextFieldDelegate {
+extension QHProfileContinueViewController:UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return false
     }

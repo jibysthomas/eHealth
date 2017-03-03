@@ -24,11 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var secondNavController:UINavigationController!
     var activityNavController:UINavigationController!
 
+    var loginController:QHLoginViewController!
+    var loginNavController:UINavigationController!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         generatePlist()
         self.window = UIWindow(frame:UIScreen.main.bounds)
-        createTabController()
+        registerLoginController()
         self.window?.makeKeyAndVisible()
 
         return true
@@ -80,6 +83,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.tabBar?.setViewControllers([mainNavController, firstNavController, secondNavController,activityNavController], animated: true)
         self.window?.rootViewController = tabBar
         
+    }
+    
+    func registerLoginController() {
+        loginController = QHLoginViewController(nibName:"QHLoginViewController",bundle:nil)
+        
+        loginNavController = UINavigationController()
+        loginNavController.viewControllers = [loginController]
+        loginNavController.navigationBar.isHidden = true
+        self.window?.rootViewController = loginNavController
     }
     
     func applicationWillResignActive(_ application: UIApplication) {
