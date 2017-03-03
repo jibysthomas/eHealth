@@ -20,6 +20,7 @@
 		17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F5A88E1E69929600A20B28 /* LaunchScreen.storyboard */; };
 		220C17681E69A532001C578E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220C17671E69A532001C578E /* FirstViewController.xib */; };
 		220C176A1E69A53D001C578E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220C17691E69A53D001C578E /* SecondViewController.xib */; };
+		CCEDD931846C1EBB5983906C /* Pods_QHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC0FBE7487129E3CF1D2924 /* Pods_QHealth.framework */; };
 		FB00C8FB1E69A3CB0076316C /* UserAgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */; };
 		FB00C8FC1E69A3CB0076316C /* UserAgreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */; };
 		FB00C8FF1E69A8D40076316C /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C8FE1E69A8D40076316C /* CacheManager.swift */; };
@@ -44,11 +45,14 @@
 		17F5A8911E69929600A20B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		220C17671E69A532001C578E /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		220C17691E69A53D001C578E /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		3ABF91B07E3E65AA6F4E361B /* Pods-QHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QHealth/Pods-QHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		5DC0FBE7487129E3CF1D2924 /* Pods_QHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgreeViewController.swift; sourceTree = "<group>"; };
 		FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAgreeViewController.xib; sourceTree = "<group>"; };
 		FB00C8FE1E69A8D40076316C /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		FB00C9011E69A8F50076316C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		FB00C9071E69AA6B0076316C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHealth/Pods-QHealth.release.xcconfig"; sourceTree = "<group>"; };
 		FBAF64C31E69AF0C0053CC3B /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Setting.plist; path = ../Setting.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEDD931846C1EBB5983906C /* Pods_QHealth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +73,8 @@
 			children = (
 				17F5A8821E69929600A20B28 /* QHealth */,
 				17F5A8811E69929600A20B28 /* Products */,
+				E75BCEF3FFE09F5C537BDD0B /* Pods */,
+				CA305929D1465547F249E113 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +110,23 @@
 				FB00C9031E69A9520076316C /* Supporting flies */,
 			);
 			path = QHealth;
+			sourceTree = "<group>";
+		};
+		CA305929D1465547F249E113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DC0FBE7487129E3CF1D2924 /* Pods_QHealth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E75BCEF3FFE09F5C537BDD0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ABF91B07E3E65AA6F4E361B /* Pods-QHealth.debug.xcconfig */,
+				FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FB00C8F81E69A38A0076316C /* Custom Views */ = {
@@ -153,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17F5A8941E69929600A20B28 /* Build configuration list for PBXNativeTarget "QHealth" */;
 			buildPhases = (
+				DEEB9C17C440D653DF47C33B /* [CP] Check Pods Manifest.lock */,
 				17F5A87C1E69929500A20B28 /* Sources */,
 				17F5A87D1E69929500A20B28 /* Frameworks */,
 				17F5A87E1E69929500A20B28 /* Resources */,
+				EB17FF99CC7E43A13F4B05C9 /* [CP] Embed Pods Frameworks */,
+				0F5D681363454B9C07094A3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +246,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F5D681363454B9C07094A3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHealth/Pods-QHealth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEB9C17C440D653DF47C33B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB17FF99CC7E43A13F4B05C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHealth/Pods-QHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17F5A87C1E69929500A20B28 /* Sources */ = {
@@ -345,6 +420,7 @@
 		};
 		17F5A8951E69929600A20B28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABF91B07E3E65AA6F4E361B /* Pods-QHealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 59HE2747R8;
@@ -358,6 +434,7 @@
 		};
 		17F5A8961E69929600A20B28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 59HE2747R8;
