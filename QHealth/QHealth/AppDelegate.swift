@@ -54,14 +54,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         secondNavController.viewControllers = [secondController]
         activityNavController.viewControllers = [activityController]
         
-        let icon1 = UITabBarItem(title: "My Day", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
-        mainController.tabBarItem = icon1
+        let icon1 = UITabBarItem(title: "Chronicle", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
+        mainNavController.tabBarItem = icon1
         
-        let icon2 = UITabBarItem(title: "Log", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
-        firstController.tabBarItem = icon2
+        let icon2 = UITabBarItem(title: "Aim", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
+        firstNavController.tabBarItem = icon2
         
-        let icon3 = UITabBarItem(title: "Me", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
-        secondController.tabBarItem = icon3
+        let icon3 = UITabBarItem(title: "Preference", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
+        secondNavController.tabBarItem = icon3
+        
+        let icon4 = UITabBarItem(title: "Activity", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
+        activityNavController.tabBarItem = icon4
         
         self.tabBar = UITabBarController()
         self.tabBar?.setViewControllers([mainNavController, firstNavController, secondNavController,activityNavController], animated: true)
