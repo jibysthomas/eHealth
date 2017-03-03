@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QHProfileViewController" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QHProfileViewController" customModule="QHealth" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -14,7 +18,63 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yx3-uv-coV">
+                    <rect key="frame" x="25" y="213" width="325" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="6cA-Em-EbV"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bxg-xR-1ls">
+                    <rect key="frame" x="25" y="263" width="325" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="sij-ur-uiT"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYV-g9-hRY">
+                    <rect key="frame" x="0.0" y="602" width="375" height="65"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="65" id="nT5-ec-h5e"/>
+                    </constraints>
+                    <state key="normal" title="Continue"/>
+                    <connections>
+                        <action selector="continueButtonClicked:" destination="-1" eventType="touchUpInside" id="rqZ-uK-Ejg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpy-OH-H6I">
+                    <rect key="frame" x="163" y="150" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="7Ke-86-HjR"/>
+                        <constraint firstAttribute="width" constant="48" id="ohg-ue-IMC"/>
+                    </constraints>
+                    <state key="normal" image="take_photo"/>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yx3-uv-coV" firstAttribute="top" secondItem="Tpy-OH-H6I" secondAttribute="bottom" constant="15" id="0AZ-dR-kPu"/>
+                <constraint firstItem="yx3-uv-coV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2BO-2g-EkP"/>
+                <constraint firstAttribute="trailing" secondItem="yx3-uv-coV" secondAttribute="trailing" constant="25" id="UTZ-GM-nLW"/>
+                <constraint firstAttribute="bottom" secondItem="VYV-g9-hRY" secondAttribute="bottom" id="WNW-Z8-uhh"/>
+                <constraint firstAttribute="trailing" secondItem="VYV-g9-hRY" secondAttribute="trailing" id="YqA-W4-21W"/>
+                <constraint firstItem="VYV-g9-hRY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ZhS-79-cL6"/>
+                <constraint firstItem="Tpy-OH-H6I" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="ams-ds-LXT"/>
+                <constraint firstItem="bxg-xR-1ls" firstAttribute="trailing" secondItem="yx3-uv-coV" secondAttribute="trailing" id="bxs-Yw-Hs9"/>
+                <constraint firstItem="Tpy-OH-H6I" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fg9-LK-7eO"/>
+                <constraint firstItem="bxg-xR-1ls" firstAttribute="leading" secondItem="yx3-uv-coV" secondAttribute="leading" id="iqd-aS-ic1"/>
+                <constraint firstItem="yx3-uv-coV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="jMA-Bj-jHV"/>
+                <constraint firstItem="bxg-xR-1ls" firstAttribute="top" secondItem="yx3-uv-coV" secondAttribute="bottom" constant="20" id="zIC-YG-OPa"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="take_photo" width="24" height="24"/>
+    </resources>
 </document>
