@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var tabBar: UITabBarController?
     var mainController:MainViewController!
-
+    var firstController:FirstViewController!
+    var secondController:SecondViewController!
+    
+    var mainNavController:UINavigationController!
+    var firstNavController:UINavigationController!
+    var secondNavController:UINavigationController!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -28,8 +33,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func createTabController() {
         mainController = MainViewController(nibName:"MainViewController",bundle:nil)
+        firstController = FirstViewController(nibName:"FirstViewController",bundle:nil)
+        secondController = SecondViewController(nibName:"SecondViewController",bundle:nil)
+        
+        mainController.title = "First"
+        firstController.title = "Second"
+        secondController.title = "Third"
+        
+        mainNavController = UINavigationController()
+        firstNavController = UINavigationController()
+        secondNavController = UINavigationController()
+        
+        mainNavController.viewControllers = [mainController]
+        firstNavController.viewControllers = [firstController]
+        secondNavController.viewControllers = [secondController]
+        
+        let icon1 = UITabBarItem(title: "My Day", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
+        mainController.tabBarItem = icon1
+        
+        let icon2 = UITabBarItem(title: "Log", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
+        firstController.tabBarItem = icon2
+        
+        let icon3 = UITabBarItem(title: "Me", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
+        secondController.tabBarItem = icon3
+        
         self.tabBar = UITabBarController()
-        self.tabBar?.setViewControllers([mainController], animated: true)
+        self.tabBar?.setViewControllers([mainNavController, firstNavController, secondNavController], animated: true)
         self.window?.rootViewController = tabBar
         
     }

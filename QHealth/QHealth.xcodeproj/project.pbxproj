@@ -16,6 +16,8 @@
 		17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F5A88E1E69929600A20B28 /* LaunchScreen.storyboard */; };
 		FB00C8FB1E69A3CB0076316C /* UserAgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */; };
 		FB00C8FC1E69A3CB0076316C /* UserAgreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */; };
+		220C17681E69A532001C578E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220C17671E69A532001C578E /* FirstViewController.xib */; };
+		220C176A1E69A53D001C578E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220C17691E69A53D001C578E /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		17F5A8911E69929600A20B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgreeViewController.swift; sourceTree = "<group>"; };
 		FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAgreeViewController.xib; sourceTree = "<group>"; };
+		220C17671E69A532001C578E /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		220C17691E69A53D001C578E /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +69,14 @@
 				FB00C8F81E69A38A0076316C /* Custom Views */,
 				17F5A8831E69929600A20B28 /* AppDelegate.swift */,
 				17F5A8851E69929600A20B28 /* FirstViewController.swift */,
+				220C17671E69A532001C578E /* FirstViewController.xib */,
 				17F5A8871E69929600A20B28 /* SecondViewController.swift */,
+				220C17691E69A53D001C578E /* SecondViewController.xib */,
 				17F5A88C1E69929600A20B28 /* Assets.xcassets */,
 				17F5A88E1E69929600A20B28 /* LaunchScreen.storyboard */,
 				17F5A8911E69929600A20B28 /* Info.plist */,
-				17D736EA1E69A205005AD265 /* MainViewController.swift */,
 				17D736EB1E69A205005AD265 /* MainViewController.xib */,
+				17D736EA1E69A205005AD265 /* MainViewController.swift */,
 			);
 			path = QHealth;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 				17D736ED1E69A205005AD265 /* MainViewController.xib in Resources */,
 				FB00C8FC1E69A3CB0076316C /* UserAgreeViewController.xib in Resources */,
 				17F5A88D1E69929600A20B28 /* Assets.xcassets in Resources */,
+				220C17681E69A532001C578E /* FirstViewController.xib in Resources */,
+				220C176A1E69A53D001C578E /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
