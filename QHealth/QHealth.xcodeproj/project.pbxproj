@@ -14,6 +14,8 @@
 		17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8871E69929600A20B28 /* SecondViewController.swift */; };
 		17F5A88D1E69929600A20B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F5A88C1E69929600A20B28 /* Assets.xcassets */; };
 		17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F5A88E1E69929600A20B28 /* LaunchScreen.storyboard */; };
+		FB00C8FB1E69A3CB0076316C /* UserAgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */; };
+		FB00C8FC1E69A3CB0076316C /* UserAgreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */; };
 		220C17681E69A532001C578E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220C17671E69A532001C578E /* FirstViewController.xib */; };
 		220C176A1E69A53D001C578E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220C17691E69A53D001C578E /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
@@ -28,6 +30,8 @@
 		17F5A88C1E69929600A20B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F5A88F1E69929600A20B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F5A8911E69929600A20B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgreeViewController.swift; sourceTree = "<group>"; };
+		FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAgreeViewController.xib; sourceTree = "<group>"; };
 		220C17671E69A532001C578E /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		220C17691E69A53D001C578E /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
