@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RESideMenu
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -24,11 +25,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var secondNavController:UINavigationController!
     var activityNavController:UINavigationController!
 
+    var loginController:QHLoginViewController!
+    var loginNavController:UINavigationController!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         generatePlist()
         self.window = UIWindow(frame:UIScreen.main.bounds)
-        createTabController()
+        registerLoginController()
         self.window?.makeKeyAndVisible()
 
         return true
@@ -78,8 +82,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.tabBar = UITabBarController()
         self.tabBar?.setViewControllers([mainNavController, firstNavController, secondNavController,activityNavController], animated: true)
-        self.window?.rootViewController = tabBar
+        addSideMenu()
+        //self.window?.rootViewController = tabBar
         
+    }
+    
+    func registerLoginController() {
+        loginController = QHLoginViewController(nibName:"QHLoginViewController",bundle:nil)
+        
+        loginNavController = UINavigationController()
+        loginNavController.viewControllers = [loginController]
+        loginNavController.navigationBar.isHidden = true
+        self.window?.rootViewController = loginNavController
+    }
+    
+    func addSideMenu() {
+        let menuController = SideMenuViewController(nibName: "SideMenuViewController", bundle: nil)
+        let sideMenuViewController = RESideMenu.init(contentViewController: self.tabBar, leftMenuViewController: menuController, rightMenuViewController: nil)
+        //sideMenuViewController?.backgroundImage = UIImage(named: "menuBack")
+        sideMenuViewController?.menuPreferredStatusBarStyle = UIStatusBarStyle.default
+        sideMenuViewController?.contentViewShadowColor = UIColor.black
+        sideMenuViewController?.contentViewShadowOffset = CGSize(width: 0, height: 0)
+        sideMenuViewController?.contentViewShadowOpacity = 0.6
+        sideMenuViewController?.contentViewShadowEnabled = true
+        self.window!.rootViewController = sideMenuViewController
     }
     
     func applicationWillResignActive(_ application: UIApplication) {

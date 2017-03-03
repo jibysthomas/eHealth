@@ -57,6 +57,7 @@
 		6AF6B660969B191E86CAF215D84EFF94 /* SMSwipeableTabView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMSwipeableTabView.framework; path = SMSwipeableTabView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA5D21CFEA0DCEB955F88E23F4EF3DC /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
 		7B09B1087912359305B0FE92BF096CF2 /* Pods-QHealth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QHealth-acknowledgements.plist"; sourceTree = "<group>"; };
+		8131863712AD1CA6F3A94AA3E410C587 /* RESideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-prefix.pch"; sourceTree = "<group>"; };
 		84E90AF3E385F6DB27854E1AC48E8113 /* Pods-QHealth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QHealth.modulemap"; sourceTree = "<group>"; };
 		88BEE5751D1ED704E35BEA5E8B19011D /* Pods-QHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QHealth.debug.xcconfig"; sourceTree = "<group>"; };
 		934CFED1CFC454C357C0D45D1D34BDE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		ADBC158ACDA254835F36C3B361BFBA26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B96CD1C62A1D83421E7E61EAD39300A4 /* SMSwipeableTabView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSwipeableTabView-prefix.pch"; sourceTree = "<group>"; };
 		B9CC3F9F05E54B64A1E87291B8AA3309 /* Pods-QHealth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QHealth-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C102D8304A1DE80711B36AD00047CCB6 /* Pods-QHealth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QHealth-umbrella.h"; sourceTree = "<group>"; };
 		C3E14F7B1AA3C4BDC82E761BEFC0C839 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -135,16 +137,7 @@
 				16213CF7C128A80E9AB1B3E503201C9E /* UITableViewVibrantCell.swift */,
 				9A742211C6D91E0387D95AEE8378C131 /* Support Files */,
 			);
-			name = SideMenu;
-			path = SideMenu;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -200,12 +193,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */,
+				BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9FE99B96BBBDBF28E556B54FE7E0E36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F362055EF2F9A396043B90A6F56304A /* Info.plist */,
+				F3E1FF359D1DA4122F91341EFDB85D4E /* RESideMenu.modulemap */,
+				CA64DE5B618D6432DB97F81D9213E193 /* RESideMenu.xcconfig */,
+				E5C75439ECFBA5640E075D0F28971291 /* RESideMenu-dummy.m */,
+				8131863712AD1CA6F3A94AA3E410C587 /* RESideMenu-prefix.pch */,
+				65EAEFA9B8A090026CA853981F09676B /* RESideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RESideMenu";
+			sourceTree = "<group>";
+		};
+		D05031BDD82F94B4C4A098CF94E8F10D /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				63976F1EF1E1DE5C7B513467E185679B /* RECommonFunctions.h */,
+				D55DC4A83796E10E6CAE6C60E91B2F6C /* RECommonFunctions.m */,
+				721A9EC45D8AF732A64A294FF1068197 /* RESideMenu.h */,
+				D90FA4AA9F122E9D6F9EB7E5820E717F /* RESideMenu.m */,
+				2BBE31AFA2EDCDB9CB4D57B0B4DFB664 /* UIViewController+RESideMenu.h */,
+				D8A9EF7645B79AAF56B3D177BEC2D0F0 /* UIViewController+RESideMenu.m */,
+				C9FE99B96BBBDBF28E556B54FE7E0E36 /* Support Files */,
+			);
+			name = RESideMenu;
+			path = RESideMenu;
 			sourceTree = "<group>";
 		};
 		EAE61220185E296B45624F529C53B163 /* Pods-QHealth */ = {
@@ -434,7 +457,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-QHealth/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QHealth/Pods-QHealth.modulemap";
@@ -682,11 +705,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		45952739D58B2B611DCFCE845C7AC4E6 /* Build configuration list for PBXNativeTarget "RESideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
-				673254EEAF0B5BF4596080C749645884 /* Release */,
+				9C88F7ADF8B654AA8F2F2D30D0988BF6 /* Debug */,
+				173938A0149729B1ADC654A2B5814B84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,18 +14,6 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    override func viewDidAppear(_ animated: Bool) {
-        let agreeBool: Bool = CacheManager.getValueForKey(plistItem: "agreeBool", plistName: SETTINGS_PLIST as NSString) as! Bool
-
-        if agreeBool == false {
-            self.tabBarController?.tabBar.isHidden = true
-            let agreeController:UserAgreeViewController = UserAgreeViewController(nibName: "UserAgreeViewController", bundle: nil)
-            self.present(agreeController, animated: false, completion: nil)
-        }else{
-            self.tabBarController?.tabBar.isHidden = false
-        }
-    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
