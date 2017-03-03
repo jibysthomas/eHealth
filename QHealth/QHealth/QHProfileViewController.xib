@@ -19,15 +19,8 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="95r-Rs-H3e">
-                    <rect key="frame" x="67" y="71" width="240" height="128"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="128" id="amX-5f-GTS"/>
-                        <constraint firstAttribute="width" constant="240" id="vvr-TC-hJY"/>
-                    </constraints>
-                </imageView>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yx3-uv-coV">
-                    <rect key="frame" x="25" y="234" width="325" height="30"/>
+                    <rect key="frame" x="25" y="213" width="325" height="30"/>
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
@@ -36,7 +29,7 @@
                     </connections>
                 </textField>
                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bxg-xR-1ls">
-                    <rect key="frame" x="25" y="284" width="325" height="30"/>
+                    <rect key="frame" x="25" y="263" width="325" height="30"/>
                     <nil key="textColor"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits"/>
@@ -54,18 +47,26 @@
                         <action selector="continueButtonClicked:" destination="-1" eventType="touchUpInside" id="rqZ-uK-Ejg"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpy-OH-H6I">
+                    <rect key="frame" x="163" y="150" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="7Ke-86-HjR"/>
+                        <constraint firstAttribute="width" constant="48" id="ohg-ue-IMC"/>
+                    </constraints>
+                    <state key="normal" image="take_photo"/>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="yx3-uv-coV" firstAttribute="top" secondItem="Tpy-OH-H6I" secondAttribute="bottom" constant="15" id="0AZ-dR-kPu"/>
                 <constraint firstItem="yx3-uv-coV" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2BO-2g-EkP"/>
-                <constraint firstItem="95r-Rs-H3e" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="71" id="4iE-y2-u37"/>
-                <constraint firstItem="yx3-uv-coV" firstAttribute="top" secondItem="95r-Rs-H3e" secondAttribute="bottom" constant="35" id="5vE-u3-iMu"/>
                 <constraint firstAttribute="trailing" secondItem="yx3-uv-coV" secondAttribute="trailing" constant="25" id="UTZ-GM-nLW"/>
                 <constraint firstAttribute="bottom" secondItem="VYV-g9-hRY" secondAttribute="bottom" id="WNW-Z8-uhh"/>
                 <constraint firstAttribute="trailing" secondItem="VYV-g9-hRY" secondAttribute="trailing" id="YqA-W4-21W"/>
                 <constraint firstItem="VYV-g9-hRY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ZhS-79-cL6"/>
+                <constraint firstItem="Tpy-OH-H6I" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="ams-ds-LXT"/>
                 <constraint firstItem="bxg-xR-1ls" firstAttribute="trailing" secondItem="yx3-uv-coV" secondAttribute="trailing" id="bxs-Yw-Hs9"/>
-                <constraint firstItem="95r-Rs-H3e" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fX1-OS-NPK"/>
+                <constraint firstItem="Tpy-OH-H6I" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fg9-LK-7eO"/>
                 <constraint firstItem="bxg-xR-1ls" firstAttribute="leading" secondItem="yx3-uv-coV" secondAttribute="leading" id="iqd-aS-ic1"/>
                 <constraint firstItem="yx3-uv-coV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="jMA-Bj-jHV"/>
                 <constraint firstItem="bxg-xR-1ls" firstAttribute="top" secondItem="yx3-uv-coV" secondAttribute="bottom" constant="20" id="zIC-YG-OPa"/>
@@ -73,4 +74,7 @@
             <point key="canvasLocation" x="33.5" y="54.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="take_photo" width="24" height="24"/>
+    </resources>
 </document>
