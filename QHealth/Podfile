@@ -6,5 +6,5 @@ target 'QHealth' do
   use_frameworks!
 
   # Pods for QHealth
-pod 'SideMenu'
+pod 'RESideMenu'
 end

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RESideMenu
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -78,8 +79,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.tabBar = UITabBarController()
         self.tabBar?.setViewControllers([mainNavController, firstNavController, secondNavController,activityNavController], animated: true)
-        self.window?.rootViewController = tabBar
+        addSideMenu()
+        //self.window?.rootViewController = tabBar
         
+    }
+    
+    func addSideMenu() {
+        let menuController = SideMenuViewController(nibName: "SideMenuViewController", bundle: nil)
+        let sideMenuViewController = RESideMenu.init(contentViewController: self.tabBar, leftMenuViewController: menuController, rightMenuViewController: nil)
+        //sideMenuViewController?.backgroundImage = UIImage(named: "menuBack")
+        sideMenuViewController?.menuPreferredStatusBarStyle = UIStatusBarStyle.default
+        sideMenuViewController?.contentViewShadowColor = UIColor.black
+        sideMenuViewController?.contentViewShadowOffset = CGSize(width: 0, height: 0)
+        sideMenuViewController?.contentViewShadowOpacity = 0.6
+        sideMenuViewController?.contentViewShadowEnabled = true
+        self.window!.rootViewController = sideMenuViewController
     }
     
     func applicationWillResignActive(_ application: UIApplication) {
