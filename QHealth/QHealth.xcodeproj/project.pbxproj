@@ -20,8 +20,13 @@
 		17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F5A88E1E69929600A20B28 /* LaunchScreen.storyboard */; };
 		220C17681E69A532001C578E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220C17671E69A532001C578E /* FirstViewController.xib */; };
 		220C176A1E69A53D001C578E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220C17691E69A53D001C578E /* SecondViewController.xib */; };
+		CCEDD931846C1EBB5983906C /* Pods_QHealth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC0FBE7487129E3CF1D2924 /* Pods_QHealth.framework */; };
 		FB00C8FB1E69A3CB0076316C /* UserAgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */; };
 		FB00C8FC1E69A3CB0076316C /* UserAgreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */; };
+		FB00C8FF1E69A8D40076316C /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C8FE1E69A8D40076316C /* CacheManager.swift */; };
+		FB00C9021E69A8F50076316C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C9011E69A8F50076316C /* Utilities.swift */; };
+		FB00C9081E69AA6B0076316C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C9071E69AA6B0076316C /* Constants.swift */; };
+		FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBAF64C31E69AF0C0053CC3B /* Setting.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +45,15 @@
 		17F5A8911E69929600A20B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		220C17671E69A532001C578E /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		220C17691E69A53D001C578E /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		3ABF91B07E3E65AA6F4E361B /* Pods-QHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QHealth/Pods-QHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		5DC0FBE7487129E3CF1D2924 /* Pods_QHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgreeViewController.swift; sourceTree = "<group>"; };
 		FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAgreeViewController.xib; sourceTree = "<group>"; };
+		FB00C8FE1E69A8D40076316C /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		FB00C9011E69A8F50076316C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		FB00C9071E69AA6B0076316C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHealth/Pods-QHealth.release.xcconfig"; sourceTree = "<group>"; };
+		FBAF64C31E69AF0C0053CC3B /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Setting.plist; path = ../Setting.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEDD931846C1EBB5983906C /* Pods_QHealth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,8 @@
 			children = (
 				17F5A8821E69929600A20B28 /* QHealth */,
 				17F5A8811E69929600A20B28 /* Products */,
+				E75BCEF3FFE09F5C537BDD0B /* Pods */,
+				CA305929D1465547F249E113 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +89,8 @@
 		17F5A8821E69929600A20B28 /* QHealth */ = {
 			isa = PBXGroup;
 			children = (
+				FB00C9001E69A8E80076316C /* Utilities */,
+				FB00C8FD1E69A8CA0076316C /* Cache Manager */,
 				FB00C8F81E69A38A0076316C /* Custom Views */,
 				17F5A8831E69929600A20B28 /* AppDelegate.swift */,
 				17F5A8851E69929600A20B28 /* FirstViewController.swift */,
@@ -83,14 +100,33 @@
 				17F5A88C1E69929600A20B28 /* Assets.xcassets */,
 				17F5A88E1E69929600A20B28 /* LaunchScreen.storyboard */,
 				17F5A8911E69929600A20B28 /* Info.plist */,
-				17D736EB1E69A205005AD265 /* MainViewController.xib */,
 				17D736EA1E69A205005AD265 /* MainViewController.swift */,
+				17D736EB1E69A205005AD265 /* MainViewController.xib */,
 				17D736F41E69AA56005AD265 /* QHActivityViewController.swift */,
 				17D736F51E69AA56005AD265 /* QHActivityViewController.xib */,
 				17D736F81E69B05F005AD265 /* QHProfileViewController.swift */,
 				17D736F91E69B05F005AD265 /* QHProfileViewController.xib */,
+				FB00C9061E69A9C20076316C /* View controllers */,
+				FB00C9031E69A9520076316C /* Supporting flies */,
 			);
 			path = QHealth;
+			sourceTree = "<group>";
+		};
+		CA305929D1465547F249E113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DC0FBE7487129E3CF1D2924 /* Pods_QHealth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E75BCEF3FFE09F5C537BDD0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ABF91B07E3E65AA6F4E361B /* Pods-QHealth.debug.xcconfig */,
+				FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		FB00C8F81E69A38A0076316C /* Custom Views */ = {
@@ -102,6 +138,38 @@
 			name = "Custom Views";
 			sourceTree = "<group>";
 		};
+		FB00C8FD1E69A8CA0076316C /* Cache Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FB00C8FE1E69A8D40076316C /* CacheManager.swift */,
+			);
+			name = "Cache Manager";
+			sourceTree = "<group>";
+		};
+		FB00C9001E69A8E80076316C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FB00C9011E69A8F50076316C /* Utilities.swift */,
+				FB00C9071E69AA6B0076316C /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		FB00C9031E69A9520076316C /* Supporting flies */ = {
+			isa = PBXGroup;
+			children = (
+				FBAF64C31E69AF0C0053CC3B /* Setting.plist */,
+			);
+			name = "Supporting flies";
+			sourceTree = "<group>";
+		};
+		FB00C9061E69A9C20076316C /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17F5A8941E69929600A20B28 /* Build configuration list for PBXNativeTarget "QHealth" */;
 			buildPhases = (
+				DEEB9C17C440D653DF47C33B /* [CP] Check Pods Manifest.lock */,
 				17F5A87C1E69929500A20B28 /* Sources */,
 				17F5A87D1E69929500A20B28 /* Frameworks */,
 				17F5A87E1E69929500A20B28 /* Resources */,
+				EB17FF99CC7E43A13F4B05C9 /* [CP] Embed Pods Frameworks */,
+				0F5D681363454B9C07094A3B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,7 +205,7 @@
 				TargetAttributes = {
 					17F5A87F1E69929500A20B28 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 482QUSGZW2;
+						DevelopmentTeam = 59HE2747R8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -162,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */,
 				17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */,
 				17D736ED1E69A205005AD265 /* MainViewController.xib in Resources */,
 				17D736F71E69AA56005AD265 /* QHActivityViewController.xib in Resources */,
@@ -175,6 +247,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F5D681363454B9C07094A3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHealth/Pods-QHealth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEB9C17C440D653DF47C33B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB17FF99CC7E43A13F4B05C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHealth/Pods-QHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17F5A87C1E69929500A20B28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -184,9 +304,12 @@
 				17D736FA1E69B05F005AD265 /* QHProfileViewController.swift in Sources */,
 				17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */,
 				17F5A8841E69929600A20B28 /* AppDelegate.swift in Sources */,
+				FB00C9021E69A8F50076316C /* Utilities.swift in Sources */,
 				FB00C8FB1E69A3CB0076316C /* UserAgreeViewController.swift in Sources */,
 				17F5A8861E69929600A20B28 /* FirstViewController.swift in Sources */,
+				FB00C8FF1E69A8D40076316C /* CacheManager.swift in Sources */,
 				17D736EC1E69A205005AD265 /* MainViewController.swift in Sources */,
+				FB00C9081E69AA6B0076316C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +420,13 @@
 		};
 		17F5A8951E69929600A20B28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABF91B07E3E65AA6F4E361B /* Pods-QHealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 482QUSGZW2;
+				DEVELOPMENT_TEAM = 59HE2747R8;
 				INFOPLIST_FILE = QHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qatar.qHealth.QHealth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qatar.QHealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -310,12 +434,13 @@
 		};
 		17F5A8961E69929600A20B28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 482QUSGZW2;
+				DEVELOPMENT_TEAM = 59HE2747R8;
 				INFOPLIST_FILE = QHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qatar.qHealth.QHealth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qatar.QHealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
