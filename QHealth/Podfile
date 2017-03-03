@@ -6,6 +6,7 @@ target 'QHealth' do
   use_frameworks!
 
   # Pods for QHealth
+pod 'RESideMenu'
 pod 'SideMenu'
 pod 'SMSwipeableTabView'
 

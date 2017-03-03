@@ -7,179 +7,231 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0131110BF17DB15FC4CF49FFA0A2555F /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE610F7F537981AA9BD6640E544029 /* SideMenuTransition.swift */; };
-		034E9269713DAB6CB5C238FA68C40942 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 607A08688C48E92C47888F766AAB1B60 /* SideMenu-dummy.m */; };
-		18C4DC55EAFDE9427DCC7344E52687B5 /* SMSwipeableTabView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 944E90A5389EB6AE9B986FE73537BE55 /* SMSwipeableTabView-dummy.m */; };
-		2C109D30E7FB87461B30C88DE77E84D5 /* Pods-QHealth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C102D8304A1DE80711B36AD00047CCB6 /* Pods-QHealth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4006D5ECA53E3701C84051357F89C06E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		4146289DC45E82E58ED4240DE83E7C71 /* SMSwipeableTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F39E5E2E3B8B5166B63C0DE2F261FC /* SMSwipeableTabViewController.swift */; };
-		443257E8A770D24EE96D741110508077 /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16213CF7C128A80E9AB1B3E503201C9E /* UITableViewVibrantCell.swift */; };
-		5DF19269F04C37D775D82C3B04775DC8 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA5D21CFEA0DCEB955F88E23F4EF3DC /* SideMenuManager.swift */; };
-		7E781693351327BAF56909BF44ABBEAA /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D6F69C4A41FCB6FC5FC181887338A /* UISideMenuNavigationController.swift */; };
-		94DA497640D07F46B5A81BCB08A3ACC1 /* SMSwipeableTabView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E9AC73AD5139C4A004F1FB654B2D2A /* SMSwipeableTabView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC8D6CFCD5F373CBFF133992437999C3 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C7E2727DD502C32E2F2E4F0A8811F1 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE228DFA12A3F4106F9E53D5DDF67EC5 /* Pods-QHealth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AB288F7477789E0EF7BE5F300AFE3A /* Pods-QHealth-dummy.m */; };
-		B0B55C915CE22846B303142F906F3073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		E8A3BF59D878CB920C04EA1E37010369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1990393E7801926D338074FC445F2900 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A15601932A7999A4F9A92499823880E6 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D512FC85D14CB6CB26BEB49C8C5681B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */; };
+		3887BEADF84BC292236D87E6BD23EEB7 /* RESideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 801251B8A8439CC7AD1225692DAC793E /* RESideMenu-dummy.m */; };
+		47A6757193D3E4086432ED9906C88B47 /* Pods-QHealth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C102D8304A1DE80711B36AD00047CCB6 /* Pods-QHealth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C55F7C3BC96D35E84B1645A3C22B67 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79E3A1F144D494D547B36DA1679633C /* SideMenuManager.swift */; };
+		4F807440EECE82837623133511E71094 /* UIViewController+RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F9BB5B572ABD6D66D9DFF18732ED7D /* UIViewController+RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F8518955EE3438A46F68A951A79E1DA /* RESideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F943F8CFB19ACAB6482C7F0DC19969 /* RESideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517DFCAA5C46B6060617414CAF31275F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		70D1F6E6C0FB292DA3E15B6999EA9398 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BB9B24DE6C506EB61C967848E3701D /* RECommonFunctions.m */; };
+		7411E03DBD7F84C93A6CA02BAFE42415 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19078F52CD48AC09457FD21D939C62C5 /* SideMenu-dummy.m */; };
+		9722D06C679D25B3C74CB03E27C5428B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		A56AE38AA92A38F205EDDDBE7CFE3AC4 /* SMSwipeableTabView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6AE79126F6E1573152DF525B8E8D7E /* SMSwipeableTabView-dummy.m */; };
+		AD1BD3BA8B0DF79B3A37DA8D13060B3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		B09FA8CEB3C5E54429E79144344B433F /* SMSwipeableTabView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C4940388D9C4131852B383DA3AB631 /* SMSwipeableTabView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA253A33A756F687E03506237827A7CC /* SMSwipeableTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB5B26263F902FFB5FD3E4DF4384285 /* SMSwipeableTabViewController.swift */; };
+		BD47B92C4168B290F32EA329FA8F8EF2 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E289F55731D51C6CD3CB5CF7CC4BCB04 /* RESideMenu.m */; };
+		C73E7A8FABC4C21E3FAF83C08AC52F6A /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F1C1D065B373043ABC6428DF226CC4 /* UITableViewVibrantCell.swift */; };
+		DB867E5C46DA757308473F38C5A1F18E /* RESideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A714941D9F6D8EE0056C61CE01DBF4A /* RESideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBFC0FB2FE0CB9177E5082FF04A12E3D /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE5063E18BC3BC25639A906A7073308 /* UISideMenuNavigationController.swift */; };
+		E208A60B434ED26255DB0C1C41882CAE /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F32CF4BF11319C6725C6A96BD868FBB /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E46A8226E311944AA41BE39CF7DD7B6C /* Pods-QHealth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AB288F7477789E0EF7BE5F300AFE3A /* Pods-QHealth-dummy.m */; };
+		EE47CFD90DEB41008DE3A514E2D4AEFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */; };
+		F0844CDD4DA54E15DA7340489921AA35 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD4324C9999E48A3B4E2FD74265B15 /* UIViewController+RESideMenu.m */; };
+		FEF04AD774EF72BA1C0781665F91C7CC /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E702A83D357C15C6B23E324E886E0 /* SideMenuTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		608C46B64CAB2BDBD3FB66015BBD3C10 /* PBXContainerItemProxy */ = {
+		1206695F19AA91E01F6E667C3D0772BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D6ABF551435D704A0A7D9DF8C656E144;
+			remoteGlobalIDString = 63944E8732C5572E04A243585A9C53E6;
 			remoteInfo = SMSwipeableTabView;
 		};
-		DB2444F130C4B0F981A5A6B42CCA3C29 /* PBXContainerItemProxy */ = {
+		3E275699DED076CD492A0D4DACC7DC9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7D9589428D2B99905348B71A39CD4C58;
+			remoteGlobalIDString = 5726CF2C0730D8E3EF21602C481B974F;
+			remoteInfo = RESideMenu;
+		};
+		D882864FF1B612635CFD7C3927229E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 097E2DAC450FC86F65591AF7FF9B0FCC;
 			remoteInfo = SideMenu;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		073923AFADCE08EFB3D967D37B8B01E7 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
-		07C7E2727DD502C32E2F2E4F0A8811F1 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
-		0A4912014146097B0E6B07C33EBDA7B6 /* SMSwipeableTabView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMSwipeableTabView.xcconfig; sourceTree = "<group>"; };
-		0A4D6F69C4A41FCB6FC5FC181887338A /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
-		16213CF7C128A80E9AB1B3E503201C9E /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
-		29E9AC73AD5139C4A004F1FB654B2D2A /* SMSwipeableTabView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSwipeableTabView-umbrella.h"; sourceTree = "<group>"; };
-		2CCEC13019718960601C0C5CD9B694E9 /* Pods_QHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QHealth.framework; path = "Pods-QHealth.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		37E3F1E85B2C9150CEDBE7E8EC875E5D /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		119AD746C44F05532C15E4469D95219A /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1535A8071707406EFA46A5259821F5F3 /* RESideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RESideMenu.modulemap; sourceTree = "<group>"; };
+		19078F52CD48AC09457FD21D939C62C5 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		1F2203FCF66514FE09666841B3A14D77 /* RESideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RESideMenu.framework; path = RESideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F1C1D065B373043ABC6428DF226CC4 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		29F943F8CFB19ACAB6482C7F0DC19969 /* RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RESideMenu.h; path = RESideMenu/RESideMenu.h; sourceTree = "<group>"; };
+		3A6AE79126F6E1573152DF525B8E8D7E /* SMSwipeableTabView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMSwipeableTabView-dummy.m"; sourceTree = "<group>"; };
+		3AC5D9C5B838BE747D0154460D02F926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3BCD830F5236D03689651E4C597AF1A5 /* Pods-QHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QHealth.release.xcconfig"; sourceTree = "<group>"; };
-		498AECA51CE99F2DC6371892A59E3167 /* SMSwipeableTabView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SMSwipeableTabView.modulemap; sourceTree = "<group>"; };
+		422A695BACC4D7159F7783439CA4A6C0 /* RESideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-prefix.pch"; sourceTree = "<group>"; };
+		4F32CF4BF11319C6725C6A96BD868FBB /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = RESideMenu/RECommonFunctions.h; sourceTree = "<group>"; };
+		5C4ADA48834423FDC07F954821593337 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
 		5C937882185B2855B8A4C4770BA7C6FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607A08688C48E92C47888F766AAB1B60 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		5FAD4324C9999E48A3B4E2FD74265B15 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RESideMenu.m"; path = "RESideMenu/UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		603C4AA173CA8359E631A3D7B265FA7D /* SMSwipeableTabView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMSwipeableTabView.xcconfig; sourceTree = "<group>"; };
 		619171A983368E246F75E3F30FB3AD6D /* Pods-QHealth-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QHealth-resources.sh"; sourceTree = "<group>"; };
-		6AF6B660969B191E86CAF215D84EFF94 /* SMSwipeableTabView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMSwipeableTabView.framework; path = SMSwipeableTabView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EA5D21CFEA0DCEB955F88E23F4EF3DC /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		641F945D18640C0185CFB6E030CC0267 /* SMSwipeableTabView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMSwipeableTabView.framework; path = SMSwipeableTabView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A714941D9F6D8EE0056C61CE01DBF4A /* RESideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-umbrella.h"; sourceTree = "<group>"; };
+		74456328BF0ADCCC3C4683E8B213C31D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76232D1032438BB3D351943A2B07E6E3 /* Pods_QHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QHealth.framework; path = "Pods-QHealth.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B09B1087912359305B0FE92BF096CF2 /* Pods-QHealth-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QHealth-acknowledgements.plist"; sourceTree = "<group>"; };
-		8131863712AD1CA6F3A94AA3E410C587 /* RESideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RESideMenu-prefix.pch"; sourceTree = "<group>"; };
+		7F1E702A83D357C15C6B23E324E886E0 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		801251B8A8439CC7AD1225692DAC793E /* RESideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RESideMenu-dummy.m"; sourceTree = "<group>"; };
 		84E90AF3E385F6DB27854E1AC48E8113 /* Pods-QHealth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QHealth.modulemap"; sourceTree = "<group>"; };
 		88BEE5751D1ED704E35BEA5E8B19011D /* Pods-QHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QHealth.debug.xcconfig"; sourceTree = "<group>"; };
-		934CFED1CFC454C357C0D45D1D34BDE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		944E90A5389EB6AE9B986FE73537BE55 /* SMSwipeableTabView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMSwipeableTabView-dummy.m"; sourceTree = "<group>"; };
-		9BBE610F7F537981AA9BD6640E544029 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
-		A3F39E5E2E3B8B5166B63C0DE2F261FC /* SMSwipeableTabViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMSwipeableTabViewController.swift; path = Pod/Classes/SMSwipeableTabViewController.swift; sourceTree = "<group>"; };
-		ADBC158ACDA254835F36C3B361BFBA26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B96CD1C62A1D83421E7E61EAD39300A4 /* SMSwipeableTabView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSwipeableTabView-prefix.pch"; sourceTree = "<group>"; };
+		9DE5063E18BC3BC25639A906A7073308 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		A15601932A7999A4F9A92499823880E6 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		A313C66BDF51F1693FD3BE48D32F8C21 /* RESideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RESideMenu.xcconfig; sourceTree = "<group>"; };
+		A59237E42F3B4A222750383B8DBFBB94 /* SMSwipeableTabView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SMSwipeableTabView.modulemap; sourceTree = "<group>"; };
+		A9F9BB5B572ABD6D66D9DFF18732ED7D /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RESideMenu.h"; path = "RESideMenu/UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		AAB5B26263F902FFB5FD3E4DF4384285 /* SMSwipeableTabViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMSwipeableTabViewController.swift; path = Pod/Classes/SMSwipeableTabViewController.swift; sourceTree = "<group>"; };
+		B41CD78008CD0A154F9240E6BC281FB7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9CC3F9F05E54B64A1E87291B8AA3309 /* Pods-QHealth-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QHealth-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BACC64101FAE4862F8806DB02FC71B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C102D8304A1DE80711B36AD00047CCB6 /* Pods-QHealth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QHealth-umbrella.h"; sourceTree = "<group>"; };
-		C3E14F7B1AA3C4BDC82E761BEFC0C839 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C2BB9B24DE6C506EB61C967848E3701D /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = RESideMenu/RECommonFunctions.m; sourceTree = "<group>"; };
+		C39A906A5F0305C521E120601859B3EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDFD5C207C7725C5910C0ED5DA989B58 /* Pods-QHealth-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QHealth-frameworks.sh"; sourceTree = "<group>"; };
+		D269D4126102391A29A8472AD81E7396 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SideMenu.modulemap; sourceTree = "<group>"; };
 		D4AB288F7477789E0EF7BE5F300AFE3A /* Pods-QHealth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QHealth-dummy.m"; sourceTree = "<group>"; };
-		E5BA383A81C01D6DC362E213EC2EE9F9 /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
+		D79E3A1F144D494D547B36DA1679633C /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		E289F55731D51C6CD3CB5CF7CC4BCB04 /* RESideMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RESideMenu.m; path = RESideMenu/RESideMenu.m; sourceTree = "<group>"; };
+		E8C4940388D9C4131852B383DA3AB631 /* SMSwipeableTabView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSwipeableTabView-umbrella.h"; sourceTree = "<group>"; };
+		EB095E05EBA0E9B283171D504EEE1869 /* SMSwipeableTabView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSwipeableTabView-prefix.pch"; sourceTree = "<group>"; };
+		F22870774E98FA759E859729CCCC840B /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33EBD07CC603E045F84A0DA26F1D0477 /* Frameworks */ = {
+		1265C57EA2863C3CF29DF173FE6BA6E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8A3BF59D878CB920C04EA1E37010369 /* Foundation.framework in Frameworks */,
+				EE47CFD90DEB41008DE3A514E2D4AEFB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBD62278C319216DDCE91C3B09E2C6E3 /* Frameworks */ = {
+		2E1D0B3ED62DACF99A618E2FDC447612 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4006D5ECA53E3701C84051357F89C06E /* Foundation.framework in Frameworks */,
+				9722D06C679D25B3C74CB03E27C5428B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6CA5FBB5B94121501DE84E58945AA2F /* Frameworks */ = {
+		5FF22245053395067A3089FC6E84DDCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B55C915CE22846B303142F906F3073 /* Foundation.framework in Frameworks */,
+				AD1BD3BA8B0DF79B3A37DA8D13060B3D /* Foundation.framework in Frameworks */,
+				2D512FC85D14CB6CB26BEB49C8C5681B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A295C9B544511ECFB70416B5B276BB9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517DFCAA5C46B6060617414CAF31275F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3AAFBD2B3BF1FCBC29D794C9A2249541 /* Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ADBC158ACDA254835F36C3B361BFBA26 /* Info.plist */,
-				498AECA51CE99F2DC6371892A59E3167 /* SMSwipeableTabView.modulemap */,
-				0A4912014146097B0E6B07C33EBDA7B6 /* SMSwipeableTabView.xcconfig */,
-				944E90A5389EB6AE9B986FE73537BE55 /* SMSwipeableTabView-dummy.m */,
-				B96CD1C62A1D83421E7E61EAD39300A4 /* SMSwipeableTabView-prefix.pch */,
-				29E9AC73AD5139C4A004F1FB654B2D2A /* SMSwipeableTabView-umbrella.h */,
+				C7AB6F27FF3606F9360547F8F1977A63 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4485784867F49450C0DE6DCEF2833D69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C39A906A5F0305C521E120601859B3EC /* Info.plist */,
+				1535A8071707406EFA46A5259821F5F3 /* RESideMenu.modulemap */,
+				A313C66BDF51F1693FD3BE48D32F8C21 /* RESideMenu.xcconfig */,
+				801251B8A8439CC7AD1225692DAC793E /* RESideMenu-dummy.m */,
+				422A695BACC4D7159F7783439CA4A6C0 /* RESideMenu-prefix.pch */,
+				6A714941D9F6D8EE0056C61CE01DBF4A /* RESideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RESideMenu";
+			sourceTree = "<group>";
+		};
+		45BC5BAD694E1A30A1C520B1BC83B10F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D15E534D01A1A16174851E74F9E7D851 /* RESideMenu */,
+				8439768EA565B7971989AA8C0A8DE095 /* SideMenu */,
+				704DFD726DA3E9BCB7D95F455F61C4E7 /* SMSwipeableTabView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B245DFD2CE12C4A845B9109819D849F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74456328BF0ADCCC3C4683E8B213C31D /* Info.plist */,
+				A59237E42F3B4A222750383B8DBFBB94 /* SMSwipeableTabView.modulemap */,
+				603C4AA173CA8359E631A3D7B265FA7D /* SMSwipeableTabView.xcconfig */,
+				3A6AE79126F6E1573152DF525B8E8D7E /* SMSwipeableTabView-dummy.m */,
+				EB095E05EBA0E9B283171D504EEE1869 /* SMSwipeableTabView-prefix.pch */,
+				E8C4940388D9C4131852B383DA3AB631 /* SMSwipeableTabView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SMSwipeableTabView";
 			sourceTree = "<group>";
 		};
-		4DD3979EF5724BF19B8454ED15DC6422 /* Pods */ = {
+		704DFD726DA3E9BCB7D95F455F61C4E7 /* SMSwipeableTabView */ = {
 			isa = PBXGroup;
 			children = (
-				6771FCE2B6BABFDD9487103305470A96 /* SideMenu */,
-				921A4381C1675EC917FC1CBCA1E11DB4 /* SMSwipeableTabView */,
+				AAB5B26263F902FFB5FD3E4DF4384285 /* SMSwipeableTabViewController.swift */,
+				6B245DFD2CE12C4A845B9109819D849F /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6771FCE2B6BABFDD9487103305470A96 /* SideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				6EA5D21CFEA0DCEB955F88E23F4EF3DC /* SideMenuManager.swift */,
-				9BBE610F7F537981AA9BD6640E544029 /* SideMenuTransition.swift */,
-				0A4D6F69C4A41FCB6FC5FC181887338A /* UISideMenuNavigationController.swift */,
-				16213CF7C128A80E9AB1B3E503201C9E /* UITableViewVibrantCell.swift */,
-				9A742211C6D91E0387D95AEE8378C131 /* Support Files */,
-			);
-			name = Products;
+			name = SMSwipeableTabView;
+			path = SMSwipeableTabView;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4DD3979EF5724BF19B8454ED15DC6422 /* Pods */,
-				88EC01D73DF106F2AF4B401451802FF2 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				45BC5BAD694E1A30A1C520B1BC83B10F /* Pods */,
+				BCACB25AAE2269364FACE10AFE9AC2B3 /* Products */,
 				B9ECA39ACC503DC2BD1429F2A28EF2A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		88EC01D73DF106F2AF4B401451802FF2 /* Products */ = {
+		8439768EA565B7971989AA8C0A8DE095 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				2CCEC13019718960601C0C5CD9B694E9 /* Pods_QHealth.framework */,
-				C3E14F7B1AA3C4BDC82E761BEFC0C839 /* SideMenu.framework */,
-				6AF6B660969B191E86CAF215D84EFF94 /* SMSwipeableTabView.framework */,
+				D79E3A1F144D494D547B36DA1679633C /* SideMenuManager.swift */,
+				7F1E702A83D357C15C6B23E324E886E0 /* SideMenuTransition.swift */,
+				9DE5063E18BC3BC25639A906A7073308 /* UISideMenuNavigationController.swift */,
+				22F1C1D065B373043ABC6428DF226CC4 /* UITableViewVibrantCell.swift */,
+				A6D2419133B00807356B7B14BEF1E33C /* Support Files */,
 			);
-			name = Products;
+			name = SideMenu;
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
-		921A4381C1675EC917FC1CBCA1E11DB4 /* SMSwipeableTabView */ = {
+		A6D2419133B00807356B7B14BEF1E33C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A3F39E5E2E3B8B5166B63C0DE2F261FC /* SMSwipeableTabViewController.swift */,
-				3AAFBD2B3BF1FCBC29D794C9A2249541 /* Support Files */,
-			);
-			name = SMSwipeableTabView;
-			path = SMSwipeableTabView;
-			sourceTree = "<group>";
-		};
-		9A742211C6D91E0387D95AEE8378C131 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				934CFED1CFC454C357C0D45D1D34BDE3 /* Info.plist */,
-				37E3F1E85B2C9150CEDBE7E8EC875E5D /* SideMenu.modulemap */,
-				E5BA383A81C01D6DC362E213EC2EE9F9 /* SideMenu.xcconfig */,
-				607A08688C48E92C47888F766AAB1B60 /* SideMenu-dummy.m */,
-				073923AFADCE08EFB3D967D37B8B01E7 /* SideMenu-prefix.pch */,
-				07C7E2727DD502C32E2F2E4F0A8811F1 /* SideMenu-umbrella.h */,
+				B41CD78008CD0A154F9240E6BC281FB7 /* Info.plist */,
+				D269D4126102391A29A8472AD81E7396 /* SideMenu.modulemap */,
+				F22870774E98FA759E859729CCCC840B /* SideMenu.xcconfig */,
+				19078F52CD48AC09457FD21D939C62C5 /* SideMenu-dummy.m */,
+				5C4ADA48834423FDC07F954821593337 /* SideMenu-prefix.pch */,
+				A15601932A7999A4F9A92499823880E6 /* SideMenu-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SideMenu";
@@ -193,6 +245,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		BCACB25AAE2269364FACE10AFE9AC2B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76232D1032438BB3D351943A2B07E6E3 /* Pods_QHealth.framework */,
+				1F2203FCF66514FE09666841B3A14D77 /* RESideMenu.framework */,
+				119AD746C44F05532C15E4469D95219A /* SideMenu.framework */,
+				641F945D18640C0185CFB6E030CC0267 /* SMSwipeableTabView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C7AB6F27FF3606F9360547F8F1977A63 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,30 +265,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C9FE99B96BBBDBF28E556B54FE7E0E36 /* Support Files */ = {
+		D15E534D01A1A16174851E74F9E7D851 /* RESideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				1F362055EF2F9A396043B90A6F56304A /* Info.plist */,
-				F3E1FF359D1DA4122F91341EFDB85D4E /* RESideMenu.modulemap */,
-				CA64DE5B618D6432DB97F81D9213E193 /* RESideMenu.xcconfig */,
-				E5C75439ECFBA5640E075D0F28971291 /* RESideMenu-dummy.m */,
-				8131863712AD1CA6F3A94AA3E410C587 /* RESideMenu-prefix.pch */,
-				65EAEFA9B8A090026CA853981F09676B /* RESideMenu-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RESideMenu";
-			sourceTree = "<group>";
-		};
-		D05031BDD82F94B4C4A098CF94E8F10D /* RESideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				63976F1EF1E1DE5C7B513467E185679B /* RECommonFunctions.h */,
-				D55DC4A83796E10E6CAE6C60E91B2F6C /* RECommonFunctions.m */,
-				721A9EC45D8AF732A64A294FF1068197 /* RESideMenu.h */,
-				D90FA4AA9F122E9D6F9EB7E5820E717F /* RESideMenu.m */,
-				2BBE31AFA2EDCDB9CB4D57B0B4DFB664 /* UIViewController+RESideMenu.h */,
-				D8A9EF7645B79AAF56B3D177BEC2D0F0 /* UIViewController+RESideMenu.m */,
-				C9FE99B96BBBDBF28E556B54FE7E0E36 /* Support Files */,
+				4F32CF4BF11319C6725C6A96BD868FBB /* RECommonFunctions.h */,
+				C2BB9B24DE6C506EB61C967848E3701D /* RECommonFunctions.m */,
+				29F943F8CFB19ACAB6482C7F0DC19969 /* RESideMenu.h */,
+				E289F55731D51C6CD3CB5CF7CC4BCB04 /* RESideMenu.m */,
+				A9F9BB5B572ABD6D66D9DFF18732ED7D /* UIViewController+RESideMenu.h */,
+				5FAD4324C9999E48A3B4E2FD74265B15 /* UIViewController+RESideMenu.m */,
+				4485784867F49450C0DE6DCEF2833D69 /* Support Files */,
 			);
 			name = RESideMenu;
 			path = RESideMenu;
@@ -252,40 +301,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0D855AB77B9127E8EB0B2253A99ED23A /* Headers */ = {
+		0359E523E1DA0DDC7A76C730CF57A850 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC8D6CFCD5F373CBFF133992437999C3 /* SideMenu-umbrella.h in Headers */,
+				E208A60B434ED26255DB0C1C41882CAE /* RECommonFunctions.h in Headers */,
+				DB867E5C46DA757308473F38C5A1F18E /* RESideMenu-umbrella.h in Headers */,
+				4F8518955EE3438A46F68A951A79E1DA /* RESideMenu.h in Headers */,
+				4F807440EECE82837623133511E71094 /* UIViewController+RESideMenu.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28411A0D5B1A80D4D77788C2F258C695 /* Headers */ = {
+		1B93A978A203F392ACEEB2389685B15D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DA497640D07F46B5A81BCB08A3ACC1 /* SMSwipeableTabView-umbrella.h in Headers */,
+				B09FA8CEB3C5E54429E79144344B433F /* SMSwipeableTabView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C1A84693B61E15E9B97C228ECF043FE /* Headers */ = {
+		64498E6B46AF398317E556A370DA3C08 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C109D30E7FB87461B30C88DE77E84D5 /* Pods-QHealth-umbrella.h in Headers */,
+				1990393E7801926D338074FC445F2900 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A82025BE6A3A31D188CF99B71BE8BB08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A6757193D3E4086432ED9906C88B47 /* Pods-QHealth-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7D9589428D2B99905348B71A39CD4C58 /* SideMenu */ = {
+		097E2DAC450FC86F65591AF7FF9B0FCC /* SideMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5FC998B9CD5CEDAA9E07F91AEEB5363 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildConfigurationList = 8B20A79CA094B2126A8902D5D0F0A7C3 /* Build configuration list for PBXNativeTarget "SideMenu" */;
 			buildPhases = (
-				81A9374D0BC114A69DB295164D40EDDB /* Sources */,
-				CBD62278C319216DDCE91C3B09E2C6E3 /* Frameworks */,
-				0D855AB77B9127E8EB0B2253A99ED23A /* Headers */,
+				7058F1DBC91B784A9B769615D5DAC44C /* Sources */,
+				1265C57EA2863C3CF29DF173FE6BA6E5 /* Frameworks */,
+				64498E6B46AF398317E556A370DA3C08 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -293,16 +353,53 @@
 			);
 			name = SideMenu;
 			productName = SideMenu;
-			productReference = C3E14F7B1AA3C4BDC82E761BEFC0C839 /* SideMenu.framework */;
+			productReference = 119AD746C44F05532C15E4469D95219A /* SideMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D6ABF551435D704A0A7D9DF8C656E144 /* SMSwipeableTabView */ = {
+		1151B0CAA1D51E350541D04EFD3C8479 /* Pods-QHealth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CF046EBBEF57CEB0628F6CA6EDB95F8 /* Build configuration list for PBXNativeTarget "SMSwipeableTabView" */;
+			buildConfigurationList = 237DB0B4FC0D5200DAD6F7D852A716EC /* Build configuration list for PBXNativeTarget "Pods-QHealth" */;
 			buildPhases = (
-				E7DF7B404A08599A732BF47D1CCF5F12 /* Sources */,
-				E6CA5FBB5B94121501DE84E58945AA2F /* Frameworks */,
-				28411A0D5B1A80D4D77788C2F258C695 /* Headers */,
+				33A2F894D2B23AAC5BCAE9E0E33EF9ED /* Sources */,
+				2E1D0B3ED62DACF99A618E2FDC447612 /* Frameworks */,
+				A82025BE6A3A31D188CF99B71BE8BB08 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CB9AA0ADE5C23D6782B07E7A6C67BB9 /* PBXTargetDependency */,
+				5849B0CD2D13DFA4BE5361CEBF580A87 /* PBXTargetDependency */,
+				392183EB303079FC847E51950F7028EB /* PBXTargetDependency */,
+			);
+			name = "Pods-QHealth";
+			productName = "Pods-QHealth";
+			productReference = 76232D1032438BB3D351943A2B07E6E3 /* Pods_QHealth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5726CF2C0730D8E3EF21602C481B974F /* RESideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20501783FA2207F542D0F21D5B7F6D66 /* Build configuration list for PBXNativeTarget "RESideMenu" */;
+			buildPhases = (
+				C1248025C55A534BE9069E784DDDED90 /* Sources */,
+				5FF22245053395067A3089FC6E84DDCD /* Frameworks */,
+				0359E523E1DA0DDC7A76C730CF57A850 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RESideMenu;
+			productName = RESideMenu;
+			productReference = 1F2203FCF66514FE09666841B3A14D77 /* RESideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63944E8732C5572E04A243585A9C53E6 /* SMSwipeableTabView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F691E994316E0BF61026B6964715A71 /* Build configuration list for PBXNativeTarget "SMSwipeableTabView" */;
+			buildPhases = (
+				9FB41C5FA86BC1C59714750DFDB528AB /* Sources */,
+				A295C9B544511ECFB70416B5B276BB9F /* Frameworks */,
+				1B93A978A203F392ACEEB2389685B15D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -310,26 +407,7 @@
 			);
 			name = SMSwipeableTabView;
 			productName = SMSwipeableTabView;
-			productReference = 6AF6B660969B191E86CAF215D84EFF94 /* SMSwipeableTabView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E25C3CF4F6D336341C96FFA52EE9CA47 /* Pods-QHealth */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A0694DAF056616ED48B96476AC9BFF3 /* Build configuration list for PBXNativeTarget "Pods-QHealth" */;
-			buildPhases = (
-				CEE2F57682621726854BEB05C08D97F1 /* Sources */,
-				33EBD07CC603E045F84A0DA26F1D0477 /* Frameworks */,
-				4C1A84693B61E15E9B97C228ECF043FE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0DF61F86C43BE2D43D0BA4056F55C8B5 /* PBXTargetDependency */,
-				81B396C26112CE54363D624A9CDDDECB /* PBXTargetDependency */,
-			);
-			name = "Pods-QHealth";
-			productName = "Pods-QHealth";
-			productReference = 2CCEC13019718960601C0C5CD9B694E9 /* Pods_QHealth.framework */;
+			productReference = 641F945D18640C0185CFB6E030CC0267 /* SMSwipeableTabView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -349,68 +427,86 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 88EC01D73DF106F2AF4B401451802FF2 /* Products */;
+			productRefGroup = BCACB25AAE2269364FACE10AFE9AC2B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E25C3CF4F6D336341C96FFA52EE9CA47 /* Pods-QHealth */,
-				7D9589428D2B99905348B71A39CD4C58 /* SideMenu */,
-				D6ABF551435D704A0A7D9DF8C656E144 /* SMSwipeableTabView */,
+				1151B0CAA1D51E350541D04EFD3C8479 /* Pods-QHealth */,
+				5726CF2C0730D8E3EF21602C481B974F /* RESideMenu */,
+				097E2DAC450FC86F65591AF7FF9B0FCC /* SideMenu */,
+				63944E8732C5572E04A243585A9C53E6 /* SMSwipeableTabView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		81A9374D0BC114A69DB295164D40EDDB /* Sources */ = {
+		33A2F894D2B23AAC5BCAE9E0E33EF9ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034E9269713DAB6CB5C238FA68C40942 /* SideMenu-dummy.m in Sources */,
-				5DF19269F04C37D775D82C3B04775DC8 /* SideMenuManager.swift in Sources */,
-				0131110BF17DB15FC4CF49FFA0A2555F /* SideMenuTransition.swift in Sources */,
-				7E781693351327BAF56909BF44ABBEAA /* UISideMenuNavigationController.swift in Sources */,
-				443257E8A770D24EE96D741110508077 /* UITableViewVibrantCell.swift in Sources */,
+				E46A8226E311944AA41BE39CF7DD7B6C /* Pods-QHealth-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEE2F57682621726854BEB05C08D97F1 /* Sources */ = {
+		7058F1DBC91B784A9B769615D5DAC44C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE228DFA12A3F4106F9E53D5DDF67EC5 /* Pods-QHealth-dummy.m in Sources */,
+				7411E03DBD7F84C93A6CA02BAFE42415 /* SideMenu-dummy.m in Sources */,
+				49C55F7C3BC96D35E84B1645A3C22B67 /* SideMenuManager.swift in Sources */,
+				FEF04AD774EF72BA1C0781665F91C7CC /* SideMenuTransition.swift in Sources */,
+				DBFC0FB2FE0CB9177E5082FF04A12E3D /* UISideMenuNavigationController.swift in Sources */,
+				C73E7A8FABC4C21E3FAF83C08AC52F6A /* UITableViewVibrantCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7DF7B404A08599A732BF47D1CCF5F12 /* Sources */ = {
+		9FB41C5FA86BC1C59714750DFDB528AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C4DC55EAFDE9427DCC7344E52687B5 /* SMSwipeableTabView-dummy.m in Sources */,
-				4146289DC45E82E58ED4240DE83E7C71 /* SMSwipeableTabViewController.swift in Sources */,
+				A56AE38AA92A38F205EDDDBE7CFE3AC4 /* SMSwipeableTabView-dummy.m in Sources */,
+				BA253A33A756F687E03506237827A7CC /* SMSwipeableTabViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1248025C55A534BE9069E784DDDED90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D1F6E6C0FB292DA3E15B6999EA9398 /* RECommonFunctions.m in Sources */,
+				3887BEADF84BC292236D87E6BD23EEB7 /* RESideMenu-dummy.m in Sources */,
+				BD47B92C4168B290F32EA329FA8F8EF2 /* RESideMenu.m in Sources */,
+				F0844CDD4DA54E15DA7340489921AA35 /* UIViewController+RESideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DF61F86C43BE2D43D0BA4056F55C8B5 /* PBXTargetDependency */ = {
+		0CB9AA0ADE5C23D6782B07E7A6C67BB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SMSwipeableTabView;
-			target = D6ABF551435D704A0A7D9DF8C656E144 /* SMSwipeableTabView */;
-			targetProxy = 608C46B64CAB2BDBD3FB66015BBD3C10 /* PBXContainerItemProxy */;
+			name = RESideMenu;
+			target = 5726CF2C0730D8E3EF21602C481B974F /* RESideMenu */;
+			targetProxy = 3E275699DED076CD492A0D4DACC7DC9A /* PBXContainerItemProxy */;
 		};
-		81B396C26112CE54363D624A9CDDDECB /* PBXTargetDependency */ = {
+		392183EB303079FC847E51950F7028EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SideMenu;
-			target = 7D9589428D2B99905348B71A39CD4C58 /* SideMenu */;
-			targetProxy = DB2444F130C4B0F981A5A6B42CCA3C29 /* PBXContainerItemProxy */;
+			target = 097E2DAC450FC86F65591AF7FF9B0FCC /* SideMenu */;
+			targetProxy = D882864FF1B612635CFD7C3927229E58 /* PBXContainerItemProxy */;
+		};
+		5849B0CD2D13DFA4BE5361CEBF580A87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SMSwipeableTabView;
+			target = 63944E8732C5572E04A243585A9C53E6 /* SMSwipeableTabView */;
+			targetProxy = 1206695F19AA91E01F6E667C3D0772BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		400298E2465A07C483A792F6C3446237 /* Release */ = {
+		0010EF6187995B8D07C1035BBDA749E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5BA383A81C01D6DC362E213EC2EE9F9 /* SideMenu.xcconfig */;
+			baseConfigurationReference = F22870774E98FA759E859729CCCC840B /* SideMenu.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -440,9 +536,9 @@
 			};
 			name = Release;
 		};
-		585208306FBE99C62B395ED57E2E1816 /* Debug */ = {
+		13F0B023D0EAE1DBB9ECA31EE1E1E2B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88BEE5751D1ED704E35BEA5E8B19011D /* Pods-QHealth.debug.xcconfig */;
+			baseConfigurationReference = A313C66BDF51F1693FD3BE48D32F8C21 /* RESideMenu.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -455,13 +551,77 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QHealth/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RESideMenu/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RESideMenu/RESideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RESideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A41B2FFAD5CC249AD26F2F1A3B689D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A313C66BDF51F1693FD3BE48D32F8C21 /* RESideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RESideMenu/RESideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RESideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RESideMenu/RESideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RESideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47C453FD0E1F90D6DFE14B413E0D8A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCD830F5236D03689651E4C597AF1A5 /* Pods-QHealth.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QHealth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-QHealth/Pods-QHealth.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -469,7 +629,71 @@
 				PRODUCT_NAME = Pods_QHealth;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4918E4DC3D85E96834B2C780669A8B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 603C4AA173CA8359E631A3D7B265FA7D /* SMSwipeableTabView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SMSwipeableTabView/SMSwipeableTabView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMSwipeableTabView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMSwipeableTabView/SMSwipeableTabView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SMSwipeableTabView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54BBAFEE2C839904EC78D1B67BA19BB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22870774E98FA759E859729CCCC840B /* SideMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -516,44 +740,9 @@
 			};
 			name = Release;
 		};
-		7F2043B28BCC4BB7339CE6A223B89DB5 /* Release */ = {
+		84E5BF20BFD30B6A43F050D62CBD2B49 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BCD830F5236D03689651E4C597AF1A5 /* Pods-QHealth.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QHealth/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QHealth/Pods-QHealth.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_QHealth;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BA1E72BBF106E91155874D38263E9631 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5BA383A81C01D6DC362E213EC2EE9F9 /* SideMenu.xcconfig */;
+			baseConfigurationReference = 88BEE5751D1ED704E35BEA5E8B19011D /* Pods-QHealth.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -566,27 +755,30 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QHealth/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QHealth/Pods-QHealth.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SideMenu;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QHealth;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D30B88EC73D867FFB82D699F93CE64BA /* Debug */ = {
+		D5B24F9EA273986DA28036DE0436E041 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A4912014146097B0E6B07C33EBDA7B6 /* SMSwipeableTabView.xcconfig */;
+			baseConfigurationReference = 603C4AA173CA8359E631A3D7B265FA7D /* SMSwipeableTabView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -661,73 +853,50 @@
 			};
 			name = Debug;
 		};
-		EF2ABEE0EFB34FE1C12CEC5A87CE6F60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A4912014146097B0E6B07C33EBDA7B6 /* SMSwipeableTabView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SMSwipeableTabView/SMSwipeableTabView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SMSwipeableTabView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SMSwipeableTabView/SMSwipeableTabView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SMSwipeableTabView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CF046EBBEF57CEB0628F6CA6EDB95F8 /* Build configuration list for PBXNativeTarget "SMSwipeableTabView" */ = {
+		20501783FA2207F542D0F21D5B7F6D66 /* Build configuration list for PBXNativeTarget "RESideMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D30B88EC73D867FFB82D699F93CE64BA /* Debug */,
-				EF2ABEE0EFB34FE1C12CEC5A87CE6F60 /* Release */,
+				13F0B023D0EAE1DBB9ECA31EE1E1E2B5 /* Debug */,
+				1A41B2FFAD5CC249AD26F2F1A3B689D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45952739D58B2B611DCFCE845C7AC4E6 /* Build configuration list for PBXNativeTarget "RESideMenu" */ = {
+		237DB0B4FC0D5200DAD6F7D852A716EC /* Build configuration list for PBXNativeTarget "Pods-QHealth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C88F7ADF8B654AA8F2F2D30D0988BF6 /* Debug */,
-				173938A0149729B1ADC654A2B5814B84 /* Release */,
+				84E5BF20BFD30B6A43F050D62CBD2B49 /* Debug */,
+				47C453FD0E1F90D6DFE14B413E0D8A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A0694DAF056616ED48B96476AC9BFF3 /* Build configuration list for PBXNativeTarget "Pods-QHealth" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				585208306FBE99C62B395ED57E2E1816 /* Debug */,
-				7F2043B28BCC4BB7339CE6A223B89DB5 /* Release */,
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5FC998B9CD5CEDAA9E07F91AEEB5363 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+		7F691E994316E0BF61026B6964715A71 /* Build configuration list for PBXNativeTarget "SMSwipeableTabView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA1E72BBF106E91155874D38263E9631 /* Debug */,
-				400298E2465A07C483A792F6C3446237 /* Release */,
+				D5B24F9EA273986DA28036DE0436E041 /* Debug */,
+				4918E4DC3D85E96834B2C780669A8B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B20A79CA094B2126A8902D5D0F0A7C3 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54BBAFEE2C839904EC78D1B67BA19BB6 /* Debug */,
+				0010EF6187995B8D07C1035BBDA749E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

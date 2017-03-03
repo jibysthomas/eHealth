@@ -153,6 +153,8 @@
 				17F5A8911E69929600A20B28 /* Info.plist */,
 				17D736EA1E69A205005AD265 /* MainViewController.swift */,
 				17D736EB1E69A205005AD265 /* MainViewController.xib */,
+				17D736F41E69AA56005AD265 /* QHActivityViewController.swift */,
+				17D736F51E69AA56005AD265 /* QHActivityViewController.xib */,
 				17D736F81E69B05F005AD265 /* QHProfileViewController.swift */,
 				17D736F91E69B05F005AD265 /* QHProfileViewController.xib */,
 				FB00C9061E69A9C20076316C /* View controllers */,
@@ -341,6 +343,7 @@
 			files = (
 				FBAF64C91E69C2020053CC3B /* SideMenuViewController.xib in Resources */,
 				FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */,
+				17D7370F1E69C19A005AD265 /* QHLoginViewController.xib in Resources */,
 				22757B251E69D9A200F71565 /* FoodViewController.xib in Resources */,
 				17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */,
 				17D736ED1E69A205005AD265 /* MainViewController.xib in Resources */,
