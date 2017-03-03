@@ -1,0 +1,6 @@
+framework module Pods_QHealth {
+  umbrella header "Pods-QHealth-umbrella.h"
+
+  export *
+  module * { export * }
+}
