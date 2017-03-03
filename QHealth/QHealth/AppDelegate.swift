@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        generatePlist()
         self.window = UIWindow(frame:UIScreen.main.bounds)
         createTabController()
         self.window?.makeKeyAndVisible()
@@ -26,6 +27,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
+    func generatePlist() {
+        let theme_filePath:String = Utilities.getDocumentPathForUser() + "/" + SETTINGS_PLIST + ".plist"
+        let fileManager:FileManager = FileManager.default
+        
+        if !fileManager.fileExists(atPath: theme_filePath) {
+            _ = CacheManager.copyFileInBundleToDocumentsFolder(fileName: SETTINGS_PLIST, fileExtension: "plist")
+        }
+    }
+    
     func createTabController() {
         mainController = MainViewController(nibName:"MainViewController",bundle:nil)
         self.tabBar = UITabBarController()
