@@ -14,6 +14,8 @@
 		17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8871E69929600A20B28 /* SecondViewController.swift */; };
 		17F5A88D1E69929600A20B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17F5A88C1E69929600A20B28 /* Assets.xcassets */; };
 		17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17F5A88E1E69929600A20B28 /* LaunchScreen.storyboard */; };
+		FB00C8FB1E69A3CB0076316C /* UserAgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */; };
+		FB00C8FC1E69A3CB0076316C /* UserAgreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		17F5A88C1E69929600A20B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17F5A88F1E69929600A20B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17F5A8911E69929600A20B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAgreeViewController.swift; sourceTree = "<group>"; };
+		FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserAgreeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		17F5A8821E69929600A20B28 /* QHealth */ = {
 			isa = PBXGroup;
 			children = (
+				FB00C8F81E69A38A0076316C /* Custom Views */,
 				17F5A8831E69929600A20B28 /* AppDelegate.swift */,
 				17F5A8851E69929600A20B28 /* FirstViewController.swift */,
 				17F5A8871E69929600A20B28 /* SecondViewController.swift */,
@@ -68,6 +73,15 @@
 				17D736EB1E69A205005AD265 /* MainViewController.xib */,
 			);
 			path = QHealth;
+			sourceTree = "<group>";
+		};
+		FB00C8F81E69A38A0076316C /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB00C8F91E69A3CB0076316C /* UserAgreeViewController.swift */,
+				FB00C8FA1E69A3CB0076316C /* UserAgreeViewController.xib */,
+			);
+			name = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +146,7 @@
 			files = (
 				17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */,
 				17D736ED1E69A205005AD265 /* MainViewController.xib in Resources */,
+				FB00C8FC1E69A3CB0076316C /* UserAgreeViewController.xib in Resources */,
 				17F5A88D1E69929600A20B28 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +160,7 @@
 			files = (
 				17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */,
 				17F5A8841E69929600A20B28 /* AppDelegate.swift in Sources */,
+				FB00C8FB1E69A3CB0076316C /* UserAgreeViewController.swift in Sources */,
 				17F5A8861E69929600A20B28 /* FirstViewController.swift in Sources */,
 				17D736EC1E69A205005AD265 /* MainViewController.swift in Sources */,
 			);
