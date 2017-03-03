@@ -17,11 +17,11 @@ class MainViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         let agreeBool: Bool = CacheManager.getValueForKey(plistItem: "agreeBool", plistName: SETTINGS_PLIST as NSString) as! Bool
-        
+        let agreeController:UserAgreeViewController = UserAgreeViewController(nibName: "UserAgreeViewController", bundle: nil)
+        self.present(agreeController, animated: false, completion: nil)
+
         if agreeBool == false {
             self.tabBarController?.tabBar.isHidden = true
-            let agreeController:UserAgreeViewController = UserAgreeViewController(nibName: "UserAgreeViewController", bundle: nil)
-            self.present(agreeController, animated: false, completion: nil)
         }else{
             self.tabBarController?.tabBar.isHidden = false
         }

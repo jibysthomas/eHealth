@@ -26,4 +26,9 @@ class UserAgreeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func agreeButtonClicked(_ sender: UIButton) {
+        CacheManager.setValueForKey(key: "agreeBool", value: true as AnyObject, plistName: SETTINGS_PLIST as NSString)
+        self.dismiss(animated: true, completion: nil)
+    }
+
 }

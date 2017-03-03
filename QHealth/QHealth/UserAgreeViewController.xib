@@ -44,20 +44,16 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KH7-si-NiE">
-                    <rect key="frame" x="16" y="470" width="568" height="50"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="50" id="p6Q-L2-bOA"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <state key="normal" title="I Agree"/>
-                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQh-Zk-Z65">
                     <rect key="frame" x="16" y="530" width="568" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="zBc-lL-4OV"/>
                     </constraints>
-                    <state key="normal" title="I do not agree at this time."/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="I Agree"/>
+                    <connections>
+                        <action selector="agreeButtonClicked:" destination="-1" eventType="touchUpInside" id="WNy-wx-mSx"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -71,14 +67,11 @@
                 <constraint firstItem="68b-zY-cLc" firstAttribute="trailing" secondItem="4hC-6W-B58" secondAttribute="trailing" id="Fet-ge-tjQ"/>
                 <constraint firstItem="4hC-6W-B58" firstAttribute="leading" secondItem="bDr-nh-Qlq" secondAttribute="leading" id="J23-3V-pUT"/>
                 <constraint firstItem="68b-zY-cLc" firstAttribute="leading" secondItem="4hC-6W-B58" secondAttribute="leading" id="VBP-Ka-Q8s"/>
-                <constraint firstItem="lQh-Zk-Z65" firstAttribute="top" secondItem="KH7-si-NiE" secondAttribute="bottom" constant="10" id="VTJ-cC-vUN"/>
                 <constraint firstAttribute="trailing" secondItem="geI-ZV-YM5" secondAttribute="trailing" constant="21" id="aDS-95-AbI"/>
                 <constraint firstAttribute="bottom" secondItem="lQh-Zk-Z65" secondAttribute="bottom" constant="20" id="ahX-0m-LCs"/>
                 <constraint firstItem="bDr-nh-Qlq" firstAttribute="trailing" secondItem="geI-ZV-YM5" secondAttribute="trailing" id="cPH-LT-N9P"/>
-                <constraint firstItem="KH7-si-NiE" firstAttribute="leading" secondItem="lQh-Zk-Z65" secondAttribute="leading" id="eNq-sZ-gq0"/>
                 <constraint firstItem="lQh-Zk-Z65" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="mjO-iO-ZB8"/>
                 <constraint firstItem="bDr-nh-Qlq" firstAttribute="leading" secondItem="geI-ZV-YM5" secondAttribute="leading" id="oKY-Od-s6G"/>
-                <constraint firstItem="KH7-si-NiE" firstAttribute="trailing" secondItem="lQh-Zk-Z65" secondAttribute="trailing" id="sPE-g8-HbX"/>
                 <constraint firstItem="68b-zY-cLc" firstAttribute="top" secondItem="4hC-6W-B58" secondAttribute="bottom" constant="20" id="uoy-Xb-Q9Y"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
