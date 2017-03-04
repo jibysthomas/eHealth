@@ -47,6 +47,12 @@ var SETTINGS_PLIST:String = "Setting"
         return appDelegate
     }
     
+    class func addNavColor(navController: UINavigationController){
+        navController.navigationBar.backgroundColor = UIColor(red: 91/255, green: 197/255, blue: 167/255, alpha: 1)
+        navController.navigationBar.barTintColor = UIColor(red: 0/255, green: 161/255, blue: 155/255, alpha: 1)
+        navController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+    }
+    
     class func integerValueToStr(_ givenInteger : NSInteger)->String {
         let givenIntegerNumber = givenInteger as NSNumber
         let givenIntegerString : String = givenIntegerNumber.stringValue

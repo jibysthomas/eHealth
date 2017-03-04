@@ -44,6 +44,8 @@
 		FB00C9081E69AA6B0076316C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C9071E69AA6B0076316C /* Constants.swift */; };
 		FB4B56811E69EDE3001F7EB1 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B567F1E69EDE3001F7EB1 /* MenuTableViewCell.swift */; };
 		FB4B56821E69EDE3001F7EB1 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B56801E69EDE3001F7EB1 /* MenuTableViewCell.xib */; };
+		FB4B56871E6AA759001F7EB1 /* AskADoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B56851E6AA759001F7EB1 /* AskADoctor.swift */; };
+		FB4B56881E6AA759001F7EB1 /* AskADoctor.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B56861E6AA759001F7EB1 /* AskADoctor.xib */; };
 		FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBAF64C31E69AF0C0053CC3B /* Setting.plist */; };
 		FBAF64C81E69C2020053CC3B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF64C61E69C2020053CC3B /* SideMenuViewController.swift */; };
 		FBAF64C91E69C2020053CC3B /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBAF64C71E69C2020053CC3B /* SideMenuViewController.xib */; };
@@ -90,6 +92,8 @@
 		FB00C9071E69AA6B0076316C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FB4B567F1E69EDE3001F7EB1 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		FB4B56801E69EDE3001F7EB1 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		FB4B56851E6AA759001F7EB1 /* AskADoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskADoctor.swift; sourceTree = "<group>"; };
+		FB4B56861E6AA759001F7EB1 /* AskADoctor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AskADoctor.xib; sourceTree = "<group>"; };
 		FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHealth/Pods-QHealth.release.xcconfig"; sourceTree = "<group>"; };
 		FBAF64C31E69AF0C0053CC3B /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Setting.plist; path = ../Setting.plist; sourceTree = "<group>"; };
 		FBAF64C61E69C2020053CC3B /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
@@ -276,6 +280,7 @@
 		FB00C9061E69A9C20076316C /* View controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FB4B56831E6AA735001F7EB1 /* Ask A Doctor */,
 				22757B211E69D96A00F71565 /* Activity */,
 				22757B201E69D96400F71565 /* Preference */,
 				22757B1A1E69C1C900F71565 /* Chromicle */,
@@ -291,6 +296,15 @@
 				FB4B56801E69EDE3001F7EB1 /* MenuTableViewCell.xib */,
 			);
 			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		FB4B56831E6AA735001F7EB1 /* Ask A Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B56851E6AA759001F7EB1 /* AskADoctor.swift */,
+				FB4B56861E6AA759001F7EB1 /* AskADoctor.xib */,
+			);
+			name = "Ask A Doctor";
 			sourceTree = "<group>";
 		};
 		FBAF64C51E69C1D60053CC3B /* Components */ = {
@@ -383,6 +397,7 @@
 				17D737131E69C945005AD265 /* QHProfileContinueViewController.xib in Resources */,
 				220C17681E69A532001C578E /* FirstViewController.xib in Resources */,
 				22757B2D1E69D9D800F71565 /* SocialViewController.xib in Resources */,
+				FB4B56881E6AA759001F7EB1 /* AskADoctor.xib in Resources */,
 				220C176A1E69A53D001C578E /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +466,7 @@
 				FBAF64C81E69C2020053CC3B /* SideMenuViewController.swift in Sources */,
 				FB00C9021E69A8F50076316C /* Utilities.swift in Sources */,
 				FB00C8FB1E69A3CB0076316C /* UserAgreeViewController.swift in Sources */,
+				FB4B56871E6AA759001F7EB1 /* AskADoctor.swift in Sources */,
 				17F5A8861E69929600A20B28 /* FirstViewController.swift in Sources */,
 				17D7370E1E69C19A005AD265 /* QHLoginViewController.swift in Sources */,
 				FB00C8FF1E69A8D40076316C /* CacheManager.swift in Sources */,
