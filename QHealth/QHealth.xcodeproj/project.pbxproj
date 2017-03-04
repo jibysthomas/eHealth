@@ -11,14 +11,14 @@
 		17D736ED1E69A205005AD265 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D736EB1E69A205005AD265 /* MainViewController.xib */; };
 		17D736F61E69AA56005AD265 /* QHActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D736F41E69AA56005AD265 /* QHActivityViewController.swift */; };
 		17D736F71E69AA56005AD265 /* QHActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D736F51E69AA56005AD265 /* QHActivityViewController.xib */; };
-		17D736FA1E69B05F005AD265 /* QHProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D736F81E69B05F005AD265 /* QHProfileViewController.swift */; };
-		17D736FB1E69B05F005AD265 /* QHProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D736F91E69B05F005AD265 /* QHProfileViewController.xib */; };
 		17D7370E1E69C19A005AD265 /* QHLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D7370C1E69C19A005AD265 /* QHLoginViewController.swift */; };
 		17D7370F1E69C19A005AD265 /* QHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D7370D1E69C19A005AD265 /* QHLoginViewController.xib */; };
 		17D737121E69C945005AD265 /* QHProfileContinueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D737101E69C945005AD265 /* QHProfileContinueViewController.swift */; };
 		17D737131E69C945005AD265 /* QHProfileContinueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D737111E69C945005AD265 /* QHProfileContinueViewController.xib */; };
 		17D737171E69E171005AD265 /* QHDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D737151E69E171005AD265 /* QHDashboardViewController.swift */; };
 		17D737181E69E171005AD265 /* QHDashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D737161E69E171005AD265 /* QHDashboardViewController.xib */; };
+		17D7371B1E6A9C6E005AD265 /* QHProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D737191E6A9C6E005AD265 /* QHProfileViewController.swift */; };
+		17D7371C1E6A9C6E005AD265 /* QHProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D7371A1E6A9C6E005AD265 /* QHProfileViewController.xib */; };
 		17F5A8841E69929600A20B28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8831E69929600A20B28 /* AppDelegate.swift */; };
 		17F5A8861E69929600A20B28 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8851E69929600A20B28 /* FirstViewController.swift */; };
 		17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8871E69929600A20B28 /* SecondViewController.swift */; };
@@ -42,6 +42,8 @@
 		FB00C8FF1E69A8D40076316C /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C8FE1E69A8D40076316C /* CacheManager.swift */; };
 		FB00C9021E69A8F50076316C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C9011E69A8F50076316C /* Utilities.swift */; };
 		FB00C9081E69AA6B0076316C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00C9071E69AA6B0076316C /* Constants.swift */; };
+		FB4B56811E69EDE3001F7EB1 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B567F1E69EDE3001F7EB1 /* MenuTableViewCell.swift */; };
+		FB4B56821E69EDE3001F7EB1 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B56801E69EDE3001F7EB1 /* MenuTableViewCell.xib */; };
 		FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBAF64C31E69AF0C0053CC3B /* Setting.plist */; };
 		FBAF64C81E69C2020053CC3B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF64C61E69C2020053CC3B /* SideMenuViewController.swift */; };
 		FBAF64C91E69C2020053CC3B /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBAF64C71E69C2020053CC3B /* SideMenuViewController.xib */; };
@@ -52,14 +54,14 @@
 		17D736EB1E69A205005AD265 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		17D736F41E69AA56005AD265 /* QHActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHActivityViewController.swift; sourceTree = "<group>"; };
 		17D736F51E69AA56005AD265 /* QHActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHActivityViewController.xib; sourceTree = "<group>"; };
-		17D736F81E69B05F005AD265 /* QHProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHProfileViewController.swift; sourceTree = "<group>"; };
-		17D736F91E69B05F005AD265 /* QHProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHProfileViewController.xib; sourceTree = "<group>"; };
 		17D7370C1E69C19A005AD265 /* QHLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHLoginViewController.swift; sourceTree = "<group>"; };
 		17D7370D1E69C19A005AD265 /* QHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHLoginViewController.xib; sourceTree = "<group>"; };
 		17D737101E69C945005AD265 /* QHProfileContinueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHProfileContinueViewController.swift; sourceTree = "<group>"; };
 		17D737111E69C945005AD265 /* QHProfileContinueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHProfileContinueViewController.xib; sourceTree = "<group>"; };
 		17D737151E69E171005AD265 /* QHDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHDashboardViewController.swift; sourceTree = "<group>"; };
 		17D737161E69E171005AD265 /* QHDashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHDashboardViewController.xib; sourceTree = "<group>"; };
+		17D737191E6A9C6E005AD265 /* QHProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHProfileViewController.swift; sourceTree = "<group>"; };
+		17D7371A1E6A9C6E005AD265 /* QHProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHProfileViewController.xib; sourceTree = "<group>"; };
 		17F5A8801E69929600A20B28 /* QHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F5A8831E69929600A20B28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17F5A8851E69929600A20B28 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,8 @@
 		FB00C8FE1E69A8D40076316C /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		FB00C9011E69A8F50076316C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		FB00C9071E69AA6B0076316C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB4B567F1E69EDE3001F7EB1 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		FB4B56801E69EDE3001F7EB1 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
 		FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHealth/Pods-QHealth.release.xcconfig"; sourceTree = "<group>"; };
 		FBAF64C31E69AF0C0053CC3B /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Setting.plist; path = ../Setting.plist; sourceTree = "<group>"; };
 		FBAF64C61E69C2020053CC3B /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
@@ -107,8 +111,8 @@
 		17D7370A1E69C171005AD265 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				17D736F81E69B05F005AD265 /* QHProfileViewController.swift */,
-				17D736F91E69B05F005AD265 /* QHProfileViewController.xib */,
+				17D737191E6A9C6E005AD265 /* QHProfileViewController.swift */,
+				17D7371A1E6A9C6E005AD265 /* QHProfileViewController.xib */,
 				17D737101E69C945005AD265 /* QHProfileContinueViewController.swift */,
 				17D737111E69C945005AD265 /* QHProfileContinueViewController.xib */,
 			);
@@ -155,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				17D737141E69E156005AD265 /* Dashboard */,
+				FB4B567E1E69EDD7001F7EB1 /* Custom Cells */,
 				FBAF64C51E69C1D60053CC3B /* Components */,
 				17D7370B1E69C180005AD265 /* Login */,
 				17D7370A1E69C171005AD265 /* Profile */,
@@ -169,8 +174,6 @@
 				17D736EB1E69A205005AD265 /* MainViewController.xib */,
 				17D736F41E69AA56005AD265 /* QHActivityViewController.swift */,
 				17D736F51E69AA56005AD265 /* QHActivityViewController.xib */,
-				17D736F81E69B05F005AD265 /* QHProfileViewController.swift */,
-				17D736F91E69B05F005AD265 /* QHProfileViewController.xib */,
 				FB00C9061E69A9C20076316C /* View controllers */,
 				FB00C9031E69A9520076316C /* Supporting flies */,
 			);
@@ -215,8 +218,6 @@
 		22757B211E69D96A00F71565 /* Activity */ = {
 			isa = PBXGroup;
 			children = (
-				17D736F41E69AA56005AD265 /* QHActivityViewController.swift */,
-				17D736F51E69AA56005AD265 /* QHActivityViewController.xib */,
 			);
 			name = Activity;
 			sourceTree = "<group>";
@@ -283,6 +284,15 @@
 			name = "View controllers";
 			sourceTree = "<group>";
 		};
+		FB4B567E1E69EDD7001F7EB1 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B567F1E69EDE3001F7EB1 /* MenuTableViewCell.swift */,
+				FB4B56801E69EDE3001F7EB1 /* MenuTableViewCell.xib */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
 		FBAF64C51E69C1D60053CC3B /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,7 +337,7 @@
 				TargetAttributes = {
 					17F5A87F1E69929500A20B28 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 59HE2747R8;
+						DevelopmentTeam = WD8XN4JRV3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -355,6 +365,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4B56821E69EDE3001F7EB1 /* MenuTableViewCell.xib in Resources */,
 				FBAF64C91E69C2020053CC3B /* SideMenuViewController.xib in Resources */,
 				FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */,
 				17D7370F1E69C19A005AD265 /* QHLoginViewController.xib in Resources */,
@@ -363,12 +374,12 @@
 				17D737181E69E171005AD265 /* QHDashboardViewController.xib in Resources */,
 				17D736ED1E69A205005AD265 /* MainViewController.xib in Resources */,
 				22757B1F1E69C8DC00F71565 /* AimDetailViewController.xib in Resources */,
+				17D7371C1E6A9C6E005AD265 /* QHProfileViewController.xib in Resources */,
 				17D736F71E69AA56005AD265 /* QHActivityViewController.xib in Resources */,
 				FB00C8FC1E69A3CB0076316C /* UserAgreeViewController.xib in Resources */,
 				17F5A88D1E69929600A20B28 /* Assets.xcassets in Resources */,
 				22757B311E69D9ED00F71565 /* SleepViewController.xib in Resources */,
 				22757B291E69D9B700F71565 /* WorkOutViewController.xib in Resources */,
-				17D736FB1E69B05F005AD265 /* QHProfileViewController.xib in Resources */,
 				17D737131E69C945005AD265 /* QHProfileContinueViewController.xib in Resources */,
 				220C17681E69A532001C578E /* FirstViewController.xib in Resources */,
 				22757B2D1E69D9D800F71565 /* SocialViewController.xib in Resources */,
@@ -432,7 +443,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17D736F61E69AA56005AD265 /* QHActivityViewController.swift in Sources */,
-				17D736FA1E69B05F005AD265 /* QHProfileViewController.swift in Sources */,
+				17D7371B1E6A9C6E005AD265 /* QHProfileViewController.swift in Sources */,
 				17D737121E69C945005AD265 /* QHProfileContinueViewController.swift in Sources */,
 				17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */,
 				17D737171E69E171005AD265 /* QHDashboardViewController.swift in Sources */,
@@ -444,6 +455,7 @@
 				17D7370E1E69C19A005AD265 /* QHLoginViewController.swift in Sources */,
 				FB00C8FF1E69A8D40076316C /* CacheManager.swift in Sources */,
 				17D736EC1E69A205005AD265 /* MainViewController.swift in Sources */,
+				FB4B56811E69EDE3001F7EB1 /* MenuTableViewCell.swift in Sources */,
 				22757B2C1E69D9D800F71565 /* SocialViewController.swift in Sources */,
 				22757B1E1E69C8DC00F71565 /* AimDetailViewController.swift in Sources */,
 				22757B281E69D9B700F71565 /* WorkOutViewController.swift in Sources */,
@@ -563,10 +575,10 @@
 			baseConfigurationReference = 3ABF91B07E3E65AA6F4E361B /* Pods-QHealth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 59HE2747R8;
+				DEVELOPMENT_TEAM = WD8XN4JRV3;
 				INFOPLIST_FILE = QHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qatar.QHealth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qatarairways.qhealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -577,10 +589,10 @@
 			baseConfigurationReference = FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 59HE2747R8;
+				DEVELOPMENT_TEAM = WD8XN4JRV3;
 				INFOPLIST_FILE = QHealth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.qatar.QHealth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qatarairways.qhealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

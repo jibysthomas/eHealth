@@ -14,15 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SMSwipeableTabView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>957066E8C51970B0DC067DA3C40FFD92</key>
+		<key>040CC2905DF0512D844D03CC2368E802</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AF10608D6909B391CC8C4399675D3479</key>
+		<key>BA4874B67783823F78FFD840104C1400</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D022F8DDA522AB9806ABB032402A024E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

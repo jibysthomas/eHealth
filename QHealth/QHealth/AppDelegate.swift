@@ -33,6 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         generatePlist()
         self.window = UIWindow(frame:UIScreen.main.bounds)
         registerLoginController()
+        self.window?.backgroundColor = UIColor.white
         self.window?.makeKeyAndVisible()
 
         return true
@@ -70,6 +71,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let icon1 = UITabBarItem(title: "Chronicle", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
         mainNavController.tabBarItem = icon1
+        mainNavController.navigationBar.backgroundColor = UIColor(red: 91/255, green: 197/255, blue: 167/255, alpha: 1)
+        mainNavController.navigationBar.barTintColor = UIColor(red: 0/255, green: 161/255, blue: 155/255, alpha: 1)
+        mainNavController.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         
         let icon2 = UITabBarItem(title: "Aim", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
         firstNavController.tabBarItem = icon2
@@ -89,7 +93,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func registerLoginController() {
         loginController = QHLoginViewController(nibName:"QHLoginViewController",bundle:nil)
-        
         loginNavController = UINavigationController()
         loginNavController.viewControllers = [loginController]
         loginNavController.navigationBar.isHidden = true
@@ -98,8 +101,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func addSideMenu() {
         let menuController = SideMenuViewController(nibName: "SideMenuViewController", bundle: nil)
-        let sideMenuViewController = RESideMenu.init(contentViewController: self.tabBar, leftMenuViewController: menuController, rightMenuViewController: nil)
-        //sideMenuViewController?.backgroundImage = UIImage(named: "menuBack")
+        let sideMenuViewController = RESideMenu.init(contentViewController: tabBar, leftMenuViewController: menuController, rightMenuViewController: nil)
+        sideMenuViewController?.backgroundImage = UIImage(named: "menuDoctor")
         sideMenuViewController?.menuPreferredStatusBarStyle = UIStatusBarStyle.default
         sideMenuViewController?.contentViewShadowColor = UIColor.black
         sideMenuViewController?.contentViewShadowOffset = CGSize(width: 0, height: 0)

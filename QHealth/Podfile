@@ -7,7 +7,6 @@ target 'QHealth' do
 
   # Pods for QHealth
 pod 'RESideMenu'
-pod 'SideMenu'
 pod 'SMSwipeableTabView'
 
 end
