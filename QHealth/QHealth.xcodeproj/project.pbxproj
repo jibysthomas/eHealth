@@ -17,6 +17,8 @@
 		17D7370F1E69C19A005AD265 /* QHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D7370D1E69C19A005AD265 /* QHLoginViewController.xib */; };
 		17D737121E69C945005AD265 /* QHProfileContinueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D737101E69C945005AD265 /* QHProfileContinueViewController.swift */; };
 		17D737131E69C945005AD265 /* QHProfileContinueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D737111E69C945005AD265 /* QHProfileContinueViewController.xib */; };
+		17D737171E69E171005AD265 /* QHDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D737151E69E171005AD265 /* QHDashboardViewController.swift */; };
+		17D737181E69E171005AD265 /* QHDashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D737161E69E171005AD265 /* QHDashboardViewController.xib */; };
 		17F5A8841E69929600A20B28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8831E69929600A20B28 /* AppDelegate.swift */; };
 		17F5A8861E69929600A20B28 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8851E69929600A20B28 /* FirstViewController.swift */; };
 		17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8871E69929600A20B28 /* SecondViewController.swift */; };
@@ -58,6 +60,8 @@
 		17D7370D1E69C19A005AD265 /* QHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHLoginViewController.xib; sourceTree = "<group>"; };
 		17D737101E69C945005AD265 /* QHProfileContinueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHProfileContinueViewController.swift; sourceTree = "<group>"; };
 		17D737111E69C945005AD265 /* QHProfileContinueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHProfileContinueViewController.xib; sourceTree = "<group>"; };
+		17D737151E69E171005AD265 /* QHDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHDashboardViewController.swift; sourceTree = "<group>"; };
+		17D737161E69E171005AD265 /* QHDashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHDashboardViewController.xib; sourceTree = "<group>"; };
 		17F5A8801E69929600A20B28 /* QHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F5A8831E69929600A20B28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17F5A8851E69929600A20B28 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +124,15 @@
 				17D7370D1E69C19A005AD265 /* QHLoginViewController.xib */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		17D737141E69E156005AD265 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				17D737151E69E171005AD265 /* QHDashboardViewController.swift */,
+				17D737161E69E171005AD265 /* QHDashboardViewController.xib */,
+			);
+			name = Dashboard;
 			sourceTree = "<group>";
 		};
 		17F5A8771E69929500A20B28 = {
@@ -357,6 +370,7 @@
 				17D7370F1E69C19A005AD265 /* QHLoginViewController.xib in Resources */,
 				22757B251E69D9A200F71565 /* FoodViewController.xib in Resources */,
 				17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */,
+				17D737181E69E171005AD265 /* QHDashboardViewController.xib in Resources */,
 				17D736ED1E69A205005AD265 /* MainViewController.xib in Resources */,
 				22757B1F1E69C8DC00F71565 /* AimDetailViewController.xib in Resources */,
 				17D736F71E69AA56005AD265 /* QHActivityViewController.xib in Resources */,
@@ -431,6 +445,7 @@
 				17D736FA1E69B05F005AD265 /* QHProfileViewController.swift in Sources */,
 				17D737121E69C945005AD265 /* QHProfileContinueViewController.swift in Sources */,
 				17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */,
+				17D737171E69E171005AD265 /* QHDashboardViewController.swift in Sources */,
 				17F5A8841E69929600A20B28 /* AppDelegate.swift in Sources */,
 				FBAF64C81E69C2020053CC3B /* SideMenuViewController.swift in Sources */,
 				FB00C9021E69A8F50076316C /* Utilities.swift in Sources */,
