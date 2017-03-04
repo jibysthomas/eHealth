@@ -11,8 +11,6 @@
 		17D736ED1E69A205005AD265 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D736EB1E69A205005AD265 /* MainViewController.xib */; };
 		17D736F61E69AA56005AD265 /* QHActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D736F41E69AA56005AD265 /* QHActivityViewController.swift */; };
 		17D736F71E69AA56005AD265 /* QHActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D736F51E69AA56005AD265 /* QHActivityViewController.xib */; };
-		17D736FA1E69B05F005AD265 /* QHProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D736F81E69B05F005AD265 /* QHProfileViewController.swift */; };
-		17D736FB1E69B05F005AD265 /* QHProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D736F91E69B05F005AD265 /* QHProfileViewController.xib */; };
 		17D7370E1E69C19A005AD265 /* QHLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D7370C1E69C19A005AD265 /* QHLoginViewController.swift */; };
 		17D7370F1E69C19A005AD265 /* QHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D7370D1E69C19A005AD265 /* QHLoginViewController.xib */; };
 		17D737121E69C945005AD265 /* QHProfileContinueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D737101E69C945005AD265 /* QHProfileContinueViewController.swift */; };
@@ -56,8 +54,6 @@
 		17D736EB1E69A205005AD265 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		17D736F41E69AA56005AD265 /* QHActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHActivityViewController.swift; sourceTree = "<group>"; };
 		17D736F51E69AA56005AD265 /* QHActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHActivityViewController.xib; sourceTree = "<group>"; };
-		17D736F81E69B05F005AD265 /* QHProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHProfileViewController.swift; sourceTree = "<group>"; };
-		17D736F91E69B05F005AD265 /* QHProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHProfileViewController.xib; sourceTree = "<group>"; };
 		17D7370C1E69C19A005AD265 /* QHLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHLoginViewController.swift; sourceTree = "<group>"; };
 		17D7370D1E69C19A005AD265 /* QHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHLoginViewController.xib; sourceTree = "<group>"; };
 		17D737101E69C945005AD265 /* QHProfileContinueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHProfileContinueViewController.swift; sourceTree = "<group>"; };
@@ -384,7 +380,6 @@
 				17F5A88D1E69929600A20B28 /* Assets.xcassets in Resources */,
 				22757B311E69D9ED00F71565 /* SleepViewController.xib in Resources */,
 				22757B291E69D9B700F71565 /* WorkOutViewController.xib in Resources */,
-				17D736FB1E69B05F005AD265 /* QHProfileViewController.xib in Resources */,
 				17D737131E69C945005AD265 /* QHProfileContinueViewController.xib in Resources */,
 				220C17681E69A532001C578E /* FirstViewController.xib in Resources */,
 				22757B2D1E69D9D800F71565 /* SocialViewController.xib in Resources */,
@@ -449,7 +444,6 @@
 			files = (
 				17D736F61E69AA56005AD265 /* QHActivityViewController.swift in Sources */,
 				17D7371B1E6A9C6E005AD265 /* QHProfileViewController.swift in Sources */,
-				17D736FA1E69B05F005AD265 /* QHProfileViewController.swift in Sources */,
 				17D737121E69C945005AD265 /* QHProfileContinueViewController.swift in Sources */,
 				17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */,
 				17D737171E69E171005AD265 /* QHDashboardViewController.swift in Sources */,
