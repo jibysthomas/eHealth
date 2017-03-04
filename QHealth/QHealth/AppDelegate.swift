@@ -85,7 +85,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         activityNavController.tabBarItem = icon4
         
         self.tabBar = UITabBarController()
-        self.tabBar?.setViewControllers([mainNavController, firstNavController, secondNavController,activityNavController], animated: true)
+        self.tabBar?.setViewControllers([mainNavController, secondNavController,activityNavController], animated: true)
         addSideMenu()
         //self.window?.rootViewController = tabBar
     }
@@ -111,7 +111,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         secondNavController.viewControllers = [secondController]
         activityNavController.viewControllers = [activityController]
         
-        let icon1 = UITabBarItem(title: "Chronicle", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
+        let icon1 = UITabBarItem(title: "My health", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
         mainNavController.tabBarItem = icon1
         mainNavController.navigationBar.backgroundColor = UIColor(red: 91/255, green: 197/255, blue: 167/255, alpha: 1)
         mainNavController.navigationBar.barTintColor = UIColor(red: 0/255, green: 161/255, blue: 155/255, alpha: 1)
@@ -127,7 +127,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         activityNavController.tabBarItem = icon4
         
         self.tabBar = UITabBarController()
-        self.tabBar?.setViewControllers([mainNavController, firstNavController, secondNavController,activityNavController], animated: true)
+        self.tabBar?.setViewControllers([mainNavController, secondNavController,activityNavController], animated: true)
         //self.window?.rootViewController = tabBar
         return tabBar!
     }
