@@ -52,6 +52,10 @@
 		FB4B56821E69EDE3001F7EB1 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B56801E69EDE3001F7EB1 /* MenuTableViewCell.xib */; };
 		FB4B56871E6AA759001F7EB1 /* AskADoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B56851E6AA759001F7EB1 /* AskADoctor.swift */; };
 		FB4B56881E6AA759001F7EB1 /* AskADoctor.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B56861E6AA759001F7EB1 /* AskADoctor.xib */; };
+		FB4B568D1E6AC742001F7EB1 /* VaccinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B568B1E6AC742001F7EB1 /* VaccinationViewController.swift */; };
+		FB4B568E1E6AC742001F7EB1 /* VaccinationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B568C1E6AC742001F7EB1 /* VaccinationViewController.xib */; };
+		FB4B56911E6ACB89001F7EB1 /* VaccinationTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B568F1E6ACB89001F7EB1 /* VaccinationTableCell.swift */; };
+		FB4B56921E6ACB89001F7EB1 /* VaccinationTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4B56901E6ACB89001F7EB1 /* VaccinationTableCell.xib */; };
 		FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBAF64C31E69AF0C0053CC3B /* Setting.plist */; };
 		FBAF64C81E69C2020053CC3B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAF64C61E69C2020053CC3B /* SideMenuViewController.swift */; };
 		FBAF64C91E69C2020053CC3B /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBAF64C71E69C2020053CC3B /* SideMenuViewController.xib */; };
@@ -106,6 +110,10 @@
 		FB4B56801E69EDE3001F7EB1 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
 		FB4B56851E6AA759001F7EB1 /* AskADoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskADoctor.swift; sourceTree = "<group>"; };
 		FB4B56861E6AA759001F7EB1 /* AskADoctor.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AskADoctor.xib; sourceTree = "<group>"; };
+		FB4B568B1E6AC742001F7EB1 /* VaccinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaccinationViewController.swift; sourceTree = "<group>"; };
+		FB4B568C1E6AC742001F7EB1 /* VaccinationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VaccinationViewController.xib; sourceTree = "<group>"; };
+		FB4B568F1E6ACB89001F7EB1 /* VaccinationTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaccinationTableCell.swift; sourceTree = "<group>"; };
+		FB4B56901E6ACB89001F7EB1 /* VaccinationTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VaccinationTableCell.xib; sourceTree = "<group>"; };
 		FB7282999EAD3F6BE56B43A4 /* Pods-QHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHealth/Pods-QHealth.release.xcconfig"; sourceTree = "<group>"; };
 		FBAF64C31E69AF0C0053CC3B /* Setting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Setting.plist; path = ../Setting.plist; sourceTree = "<group>"; };
 		FBAF64C61E69C2020053CC3B /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
@@ -314,6 +322,7 @@
 		FB00C9061E69A9C20076316C /* View controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FB4B568A1E6AC703001F7EB1 /* Vaccination */,
 				FB4B56831E6AA735001F7EB1 /* Ask A Doctor */,
 				22757B211E69D96A00F71565 /* Activity */,
 				22757B201E69D96400F71565 /* Preference */,
@@ -328,6 +337,8 @@
 			children = (
 				FB4B567F1E69EDE3001F7EB1 /* MenuTableViewCell.swift */,
 				FB4B56801E69EDE3001F7EB1 /* MenuTableViewCell.xib */,
+				FB4B568F1E6ACB89001F7EB1 /* VaccinationTableCell.swift */,
+				FB4B56901E6ACB89001F7EB1 /* VaccinationTableCell.xib */,
 			);
 			name = "Custom Cells";
 			sourceTree = "<group>";
@@ -339,6 +350,15 @@
 				FB4B56861E6AA759001F7EB1 /* AskADoctor.xib */,
 			);
 			name = "Ask A Doctor";
+			sourceTree = "<group>";
+		};
+		FB4B568A1E6AC703001F7EB1 /* Vaccination */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B568B1E6AC742001F7EB1 /* VaccinationViewController.swift */,
+				FB4B568C1E6AC742001F7EB1 /* VaccinationViewController.xib */,
+			);
+			name = Vaccination;
 			sourceTree = "<group>";
 		};
 		FBAF64C51E69C1D60053CC3B /* Components */ = {
@@ -418,6 +438,7 @@
 				FBAF64C91E69C2020053CC3B /* SideMenuViewController.xib in Resources */,
 				17D737251E6AA400005AD265 /* QHSettingsViewController.xib in Resources */,
 				FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */,
+				FB4B56921E6ACB89001F7EB1 /* VaccinationTableCell.xib in Resources */,
 				17D7370F1E69C19A005AD265 /* QHLoginViewController.xib in Resources */,
 				22757B251E69D9A200F71565 /* FoodViewController.xib in Resources */,
 				17F5A8901E69929600A20B28 /* LaunchScreen.storyboard in Resources */,
@@ -425,6 +446,7 @@
 				17D736ED1E69A205005AD265 /* MainViewController.xib in Resources */,
 				22757B1F1E69C8DC00F71565 /* AimDetailViewController.xib in Resources */,
 				17D7371C1E6A9C6E005AD265 /* QHProfileViewController.xib in Resources */,
+				FB4B568E1E6AC742001F7EB1 /* VaccinationViewController.xib in Resources */,
 				17D736F71E69AA56005AD265 /* QHActivityViewController.xib in Resources */,
 				FB00C8FC1E69A3CB0076316C /* UserAgreeViewController.xib in Resources */,
 				17F5A88D1E69929600A20B28 /* Assets.xcassets in Resources */,
@@ -499,6 +521,8 @@
 				17D736F61E69AA56005AD265 /* QHActivityViewController.swift in Sources */,
 				2244D3341E6ABB49007204B5 /* CustomHeaderView.swift in Sources */,
 				17D737121E69C945005AD265 /* QHProfileContinueViewController.swift in Sources */,
+				FB4B568D1E6AC742001F7EB1 /* VaccinationViewController.swift in Sources */,
+				FB4B56911E6ACB89001F7EB1 /* VaccinationTableCell.swift in Sources */,
 				17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */,
 				17D737171E69E171005AD265 /* QHDashboardViewController.swift in Sources */,
 				17F5A8841E69929600A20B28 /* AppDelegate.swift in Sources */,
