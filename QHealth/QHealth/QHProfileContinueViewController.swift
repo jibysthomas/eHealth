@@ -10,8 +10,10 @@ import UIKit
 
 class QHProfileContinueViewController: UIViewController {
 
+    @IBOutlet weak var datePicker: UIDatePicker!
     override func viewDidLoad() {
         super.viewDidLoad()
+        datePicker.maximumDate = NSDate() as Date
         // Do any additional setup after loading the view.
     }
 

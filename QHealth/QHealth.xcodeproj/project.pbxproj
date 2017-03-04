@@ -169,8 +169,6 @@
 				17D736EB1E69A205005AD265 /* MainViewController.xib */,
 				17D736F41E69AA56005AD265 /* QHActivityViewController.swift */,
 				17D736F51E69AA56005AD265 /* QHActivityViewController.xib */,
-				17D736F81E69B05F005AD265 /* QHProfileViewController.swift */,
-				17D736F91E69B05F005AD265 /* QHProfileViewController.xib */,
 				FB00C9061E69A9C20076316C /* View controllers */,
 				FB00C9031E69A9520076316C /* Supporting flies */,
 			);
@@ -215,8 +213,6 @@
 		22757B211E69D96A00F71565 /* Activity */ = {
 			isa = PBXGroup;
 			children = (
-				17D736F41E69AA56005AD265 /* QHActivityViewController.swift */,
-				17D736F51E69AA56005AD265 /* QHActivityViewController.xib */,
 			);
 			name = Activity;
 			sourceTree = "<group>";
