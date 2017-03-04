@@ -11,7 +11,11 @@ import UIKit
 class QHActivityViewController: UIViewController {
     
     let sectionsArray:NSArray = ["Breakfast", "Lunch", "Dinner", "Snacks", "Exercise"]
-    let rowsArray:NSArray = ["Hello"]
+    let bfArray:NSArray = ["Milk 2", "Juice 1"]
+    let lunchArray:NSArray = ["Green Salad", "Pasta", "Tomatoes", "Bread"]
+    let dinnerArray:NSArray = ["Pasta", "Bread 2"]
+    let snacksArray:NSArray = []
+    let exerciseArray:NSArray = ["Pushups 40", "Walking 20 mins"]
     
     @IBOutlet var tableView:UITableView!
 
@@ -48,7 +52,23 @@ extension QHActivityViewController:UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return rowsArray.count
+        var noOfRows = 0
+        
+        switch section {
+        case 0:
+            noOfRows = bfArray.count
+        case 1:
+            noOfRows = lunchArray.count
+        case 2:
+            noOfRows = dinnerArray.count
+        case 3:
+            noOfRows = snacksArray.count
+        case 4:
+            noOfRows = exerciseArray.count
+        default:
+            noOfRows = 0
+        }
+        return noOfRows
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
