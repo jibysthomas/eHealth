@@ -156,6 +156,7 @@
 		17F5A8821E69929600A20B28 /* QHealth */ = {
 			isa = PBXGroup;
 			children = (
+				17D737141E69E156005AD265 /* Dashboard */,
 				FB4B567E1E69EDD7001F7EB1 /* Custom Cells */,
 				FBAF64C51E69C1D60053CC3B /* Components */,
 				17D7370B1E69C180005AD265 /* Login */,
