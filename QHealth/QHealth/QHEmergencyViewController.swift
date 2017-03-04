@@ -1,19 +1,18 @@
 //
-//  QHProfileContinueViewController.swift
+//  QHEmergencyViewController.swift
 //  QHealth
 //
-//  Created by Anand on 3/3/17.
+//  Created by Anand on 3/4/17.
 //  Copyright © 2017 Anand. All rights reserved.
 //
 
 import UIKit
 
-class QHProfileContinueViewController: UIViewController {
+class QHEmergencyViewController: UIViewController {
 
-    @IBOutlet weak var datePicker: UIDatePicker!
     override func viewDidLoad() {
         super.viewDidLoad()
-        datePicker.maximumDate = NSDate() as Date
+        self.title = "Emergency"
         // Do any additional setup after loading the view.
     }
 
@@ -21,15 +20,11 @@ class QHProfileContinueViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func completeRegistration(_ sender: Any) {
-        Utilities.getAppDelegate().createTabController()
-    }
 }
 
-extension QHProfileContinueViewController:UITextFieldDelegate {
+extension QHEmergencyViewController:UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        textField .resignFirstResponder()
+        textField.resignFirstResponder()
         return false
     }
 }
