@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QHProfileContinueViewController" customModule="QHealth" customModuleProvider="target">
             <connections>
+                <outlet property="datePicker" destination="ihc-6P-Lnz" id="IFp-Ma-y39"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -46,10 +47,16 @@
                         <outlet property="delegate" destination="-1" id="Qri-YY-8vc"/>
                     </connections>
                 </textField>
-                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ihc-6P-Lnz">
-                    <rect key="frame" x="25" y="301" width="325" height="216"/>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ihc-6P-Lnz">
+                    <rect key="frame" x="25" y="331" width="325" height="216"/>
                     <date key="date" timeIntervalSinceReferenceDate="510249516.07994801">
                         <!--2017-03-03 15:58:36 +0000-->
+                    </date>
+                    <date key="minimumDate" timeIntervalSinceReferenceDate="-978267600">
+                        <!--1970-01-01 11:00:00 +0000-->
+                    </date>
+                    <date key="maximumDate" timeIntervalSinceReferenceDate="510267600">
+                        <!--2017-03-03 21:00:00 +0000-->
                     </date>
                 </datePicker>
                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ppn-hn-yzE">
@@ -66,7 +73,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ay5-6a-ug4">
-                    <rect key="frame" x="134" y="157.5" width="22" height="15"/>
+                    <rect key="frame" x="134" y="158" width="22" height="15"/>
                     <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -81,11 +88,18 @@
                         <action selector="completeRegistration:" destination="-1" eventType="touchUpInside" id="iW9-W5-Hjl"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date of birth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xND-RW-YP2">
+                    <rect key="frame" x="25" y="303" width="86.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CDd-54-Zma" secondAttribute="trailing" constant="25" id="4is-nT-pdq"/>
                 <constraint firstItem="hx2-bk-DNO" firstAttribute="height" secondItem="MoF-bS-dJB" secondAttribute="height" id="4po-Ar-Hqu"/>
+                <constraint firstItem="xND-RW-YP2" firstAttribute="top" secondItem="Ppn-hn-yzE" secondAttribute="bottom" constant="20" id="5vr-CF-C9X"/>
                 <constraint firstItem="ay5-6a-ug4" firstAttribute="leading" secondItem="hx2-bk-DNO" secondAttribute="trailing" constant="9" id="7RO-dG-xb3"/>
                 <constraint firstItem="Ppn-hn-yzE" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="8mO-xM-69u"/>
                 <constraint firstItem="FTl-z0-XfD" firstAttribute="leading" secondItem="hx2-bk-DNO" secondAttribute="leading" id="EAH-Jh-P3q"/>
@@ -99,13 +113,15 @@
                 <constraint firstItem="FTl-z0-XfD" firstAttribute="width" secondItem="hx2-bk-DNO" secondAttribute="width" id="XTS-Iv-kbo"/>
                 <constraint firstItem="FTl-z0-XfD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="XvM-FI-f7b"/>
                 <constraint firstItem="Ppn-hn-yzE" firstAttribute="top" secondItem="MoF-bS-dJB" secondAttribute="bottom" constant="25" id="amf-xT-3Ta"/>
+                <constraint firstItem="ihc-6P-Lnz" firstAttribute="top" secondItem="xND-RW-YP2" secondAttribute="bottom" constant="10" id="b9L-Py-5t8"/>
                 <constraint firstItem="qb7-7G-ngR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dPD-Nd-Fqe"/>
                 <constraint firstItem="hx2-bk-DNO" firstAttribute="width" secondItem="MoF-bS-dJB" secondAttribute="width" id="dYO-vE-yhr"/>
-                <constraint firstItem="ihc-6P-Lnz" firstAttribute="top" secondItem="Ppn-hn-yzE" secondAttribute="bottom" constant="18" id="hNZ-2i-RKh"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xND-RW-YP2" secondAttribute="trailing" constant="25" id="eIb-GI-Ute"/>
                 <constraint firstItem="CDd-54-Zma" firstAttribute="leading" secondItem="FTl-z0-XfD" secondAttribute="trailing" constant="10" id="kmp-y8-9JA"/>
                 <constraint firstItem="CDd-54-Zma" firstAttribute="centerY" secondItem="FTl-z0-XfD" secondAttribute="centerY" id="ooW-pW-zDr"/>
                 <constraint firstItem="ihc-6P-Lnz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="rn8-pD-XBj"/>
                 <constraint firstItem="FTl-z0-XfD" firstAttribute="height" secondItem="hx2-bk-DNO" secondAttribute="height" id="svF-Ns-TDs"/>
+                <constraint firstItem="xND-RW-YP2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="25" id="tBN-IW-QRB"/>
                 <constraint firstAttribute="trailing" secondItem="Ppn-hn-yzE" secondAttribute="trailing" constant="25" id="ua4-Rq-Ouc"/>
                 <constraint firstItem="hx2-bk-DNO" firstAttribute="leading" secondItem="MoF-bS-dJB" secondAttribute="leading" id="vbc-PB-Ttc"/>
                 <constraint firstItem="ay5-6a-ug4" firstAttribute="trailing" secondItem="CDd-54-Zma" secondAttribute="trailing" id="vc6-wF-VR6"/>

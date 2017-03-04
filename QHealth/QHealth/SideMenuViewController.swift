@@ -11,8 +11,8 @@ import UIKit
 class SideMenuViewController: UIViewController, UIGestureRecognizerDelegate{
     
     @IBOutlet var tableView_: UITableView!
-    let MENU_ARRAY:NSArray = ["My Dashboard", "My Goal", "My Diary", "Settings", "Support", "Contact Us"]
-    let MENU_DIC:NSDictionary = ["My Dashboard" : "dashBoard", "My Goal" : "goal", "My Diary" : "diary", "Settings" : "settings_menu", "Support" : "settings_menu", "Contact Us" : "settings_menu"]
+    let MENU_ARRAY:NSArray = ["My Health", "Ask a doctor", "My Diary", "Settings", "Emergency Details", "Contact Us"]
+    let MENU_DIC:NSDictionary = ["My Health" : "dashBoard", "Ask a doctor" : "goal", "My Diary" : "diary", "Settings" : "settings_menu", "Emergency Details" : "settings_menu", "Contact Us" : "settings_menu"]
     let menuTableCellIdentifier = "MenuTableViewCell"
 
     class func instanceSelectDepartureFromNib() -> SideMenuViewController? {
@@ -69,6 +69,32 @@ class SideMenuViewController: UIViewController, UIGestureRecognizerDelegate{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath) {
+        if (indexPath as NSIndexPath).row == 0 {
+            let tabController = Utilities.getAppDelegate().getTabController()
+            self.sideMenuViewController.setContentViewController(tabController, animated: true)
+            self.sideMenuViewController.hideViewController()
+        }else if (indexPath as NSIndexPath).row == 1 {
+            let askADoctor = AskADoctor(nibName: "AskADoctor", bundle: nil)
+            askADoctor.title = "Ask a doctor"
+            let navController:UINavigationController = UINavigationController(rootViewController: askADoctor)
+            Utilities.addNavColor(navController: navController)
+            self.sideMenuViewController.setContentViewController(navController, animated: true)
+            self.sideMenuViewController.hideViewController()
+        }else if (indexPath as NSIndexPath).row == 3 {
+            let settingsController = QHSettingsViewController(nibName: "QHSettingsViewController", bundle: nil)
+            settingsController.title = "Settings"
+            let navController:UINavigationController = UINavigationController(rootViewController: settingsController)
+            Utilities.addNavColor(navController: navController)
+            self.sideMenuViewController.setContentViewController(navController, animated: true)
+            self.sideMenuViewController.hideViewController()
+        }else if (indexPath as NSIndexPath).row == 4 {
+            let emergencyController = QHEmergencyViewController(nibName: "QHEmergencyViewController", bundle: nil)
+            emergencyController.title = "Emergency details"
+            let navController:UINavigationController = UINavigationController(rootViewController: emergencyController)
+            Utilities.addNavColor(navController: navController)
+            self.sideMenuViewController.setContentViewController(navController, animated: true)
+            self.sideMenuViewController.hideViewController()
+        }
     }
     
     

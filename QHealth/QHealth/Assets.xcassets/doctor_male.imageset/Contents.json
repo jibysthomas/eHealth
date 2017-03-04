@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "health16suffix.png",
+      "filename" : "doctor_male.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "health16suffix-1.png",
+      "filename" : "doctor_male-1.png",
       "scale" : "2x"
     },
     {

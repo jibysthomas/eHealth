@@ -2,12 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "health16suffix.png",
+      "filename" : "vaccine_chart.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "health16suffix-1.png",
+      "filename" : "vaccine_chart-1.jpg",
       "scale" : "2x"
     },
     {
