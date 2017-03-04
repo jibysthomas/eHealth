@@ -19,6 +19,8 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "LabelCell")
         
+        self.title = "Select Goal"
+        
     }
 
     override func didReceiveMemoryWarning() {
