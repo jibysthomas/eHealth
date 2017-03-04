@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomHeaderView" customModule="QHealth" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FJ0-RW-RBz">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SpL-f8-rS5">
+                            <rect key="frame" x="14" y="0.0" width="292" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="292" id="IU0-OQ-5wq"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2m-55-11f">
+                            <rect key="frame" x="306" y="0.0" width="69" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="69" id="gwO-cs-mDQ"/>
+                            </constraints>
+                            <state key="normal" image="add_activity"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="h2m-55-11f" secondAttribute="trailing" id="Bjm-99-RcV"/>
+                        <constraint firstItem="SpL-f8-rS5" firstAttribute="top" secondItem="FJ0-RW-RBz" secondAttribute="top" id="Jje-yW-trx"/>
+                        <constraint firstAttribute="bottom" secondItem="SpL-f8-rS5" secondAttribute="bottom" id="L8I-in-zJn"/>
+                        <constraint firstItem="h2m-55-11f" firstAttribute="top" secondItem="FJ0-RW-RBz" secondAttribute="top" id="MTx-E9-lqY"/>
+                        <constraint firstItem="SpL-f8-rS5" firstAttribute="leading" secondItem="FJ0-RW-RBz" secondAttribute="leading" constant="14" id="YW1-AU-hOP"/>
+                        <constraint firstAttribute="bottom" secondItem="h2m-55-11f" secondAttribute="bottom" id="nJ4-dF-l6P"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="FJ0-RW-RBz" secondAttribute="trailing" id="Xvh-HF-CIK"/>
+                <constraint firstAttribute="bottom" secondItem="FJ0-RW-RBz" secondAttribute="bottom" id="ewy-NR-Yfv"/>
+                <constraint firstItem="FJ0-RW-RBz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pNa-uJ-SNw"/>
+                <constraint firstItem="FJ0-RW-RBz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yj2-gM-gQ2"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="addButton" destination="h2m-55-11f" id="iXp-tI-qiu"/>
+                <outlet property="headerLabel" destination="SpL-f8-rS5" id="2Fb-Rg-Wl1"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="70"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="add_activity" width="32" height="32"/>
+    </resources>
+</document>
