@@ -76,8 +76,22 @@ extension QHActivityViewController:UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
-        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
-        cell.textLabel?.text = rowsArray[indexPath.row] as? String
+        var array:NSArray = []
+        switch indexPath.section {
+        case 0:
+            array = bfArray
+        case 1:
+            array = lunchArray
+        case 2:
+            array = dinnerArray
+        case 3:
+            array = snacksArray
+        case 4:
+            array = exerciseArray
+        default:
+            array = bfArray
+        }
+        cell.textLabel?.text = array[indexPath.row] as? String
         cell.detailTextLabel?.text = "2 cups"
         return cell
     }
