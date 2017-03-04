@@ -21,6 +21,8 @@
 		17D7371C1E6A9C6E005AD265 /* QHProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D7371A1E6A9C6E005AD265 /* QHProfileViewController.xib */; };
 		17D737241E6AA400005AD265 /* QHSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D737221E6AA400005AD265 /* QHSettingsViewController.swift */; };
 		17D737251E6AA400005AD265 /* QHSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D737231E6AA400005AD265 /* QHSettingsViewController.xib */; };
+		17D737291E6AA66A005AD265 /* QHEmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D737271E6AA66A005AD265 /* QHEmergencyViewController.swift */; };
+		17D7372A1E6AA66A005AD265 /* QHEmergencyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D737281E6AA66A005AD265 /* QHEmergencyViewController.xib */; };
 		17F5A8841E69929600A20B28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8831E69929600A20B28 /* AppDelegate.swift */; };
 		17F5A8861E69929600A20B28 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8851E69929600A20B28 /* FirstViewController.swift */; };
 		17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8871E69929600A20B28 /* SecondViewController.swift */; };
@@ -66,6 +68,8 @@
 		17D7371A1E6A9C6E005AD265 /* QHProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHProfileViewController.xib; sourceTree = "<group>"; };
 		17D737221E6AA400005AD265 /* QHSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHSettingsViewController.swift; sourceTree = "<group>"; };
 		17D737231E6AA400005AD265 /* QHSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHSettingsViewController.xib; sourceTree = "<group>"; };
+		17D737271E6AA66A005AD265 /* QHEmergencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHEmergencyViewController.swift; sourceTree = "<group>"; };
+		17D737281E6AA66A005AD265 /* QHEmergencyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHEmergencyViewController.xib; sourceTree = "<group>"; };
 		17F5A8801E69929600A20B28 /* QHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F5A8831E69929600A20B28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17F5A8851E69929600A20B28 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +154,15 @@
 			name = Settings;
 			sourceTree = "<group>";
 		};
+		17D737261E6AA656005AD265 /* Emergency */ = {
+			isa = PBXGroup;
+			children = (
+				17D737271E6AA66A005AD265 /* QHEmergencyViewController.swift */,
+				17D737281E6AA66A005AD265 /* QHEmergencyViewController.xib */,
+			);
+			name = Emergency;
+			sourceTree = "<group>";
+		};
 		17F5A8771E69929500A20B28 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +184,7 @@
 		17F5A8821E69929600A20B28 /* QHealth */ = {
 			isa = PBXGroup;
 			children = (
+				17D737261E6AA656005AD265 /* Emergency */,
 				17D737211E6AA3A5005AD265 /* Settings */,
 				17D737141E69E156005AD265 /* Dashboard */,
 				FB4B567E1E69EDD7001F7EB1 /* Custom Cells */,
@@ -397,6 +411,7 @@
 				22757B291E69D9B700F71565 /* WorkOutViewController.xib in Resources */,
 				17D737131E69C945005AD265 /* QHProfileContinueViewController.xib in Resources */,
 				220C17681E69A532001C578E /* FirstViewController.xib in Resources */,
+				17D7372A1E6AA66A005AD265 /* QHEmergencyViewController.xib in Resources */,
 				22757B2D1E69D9D800F71565 /* SocialViewController.xib in Resources */,
 				220C176A1E69A53D001C578E /* SecondViewController.xib in Resources */,
 			);
@@ -472,6 +487,7 @@
 				FB00C8FF1E69A8D40076316C /* CacheManager.swift in Sources */,
 				17D736EC1E69A205005AD265 /* MainViewController.swift in Sources */,
 				FB4B56811E69EDE3001F7EB1 /* MenuTableViewCell.swift in Sources */,
+				17D737291E6AA66A005AD265 /* QHEmergencyViewController.swift in Sources */,
 				22757B2C1E69D9D800F71565 /* SocialViewController.swift in Sources */,
 				22757B1E1E69C8DC00F71565 /* AimDetailViewController.swift in Sources */,
 				22757B281E69D9B700F71565 /* WorkOutViewController.swift in Sources */,
