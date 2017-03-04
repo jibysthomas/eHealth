@@ -1,36 +1,43 @@
 //
-//  FirstViewController.swift
+//  FoodViewController.swift
 //  QHealth
 //
-//  Created by Anand on 3/3/17.
+//  Created by sree on 3/3/17.
 //  Copyright © 2017 Anand. All rights reserved.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
-    
-    let aimsArray:NSArray = ["Weight Gain", "Weight Loss", "Diabetes"]
+class FoodViewController: UIViewController {
+    let foodArray:NSArray = ["Breakfast", "Lunch", "Dinner", "Snacks"]
     
     @IBOutlet var tableView:UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "LabelCell")
-        
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "FoodCell")
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }
 
-extension FirstViewController:UITableViewDelegate, UITableViewDataSource {
-    
+extension FoodViewController:UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
@@ -56,7 +63,7 @@ extension FirstViewController:UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return aimsArray.count
+        return foodArray.count
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -64,12 +71,10 @@ extension FirstViewController:UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FoodCell", for: indexPath)
         cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
-        cell.textLabel?.text = aimsArray[indexPath.row] as? String
+        cell.textLabel?.text = foodArray[indexPath.row] as? String
         
         return cell
     }
-    
 }
-
