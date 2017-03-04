@@ -19,6 +19,8 @@
 		17D737181E69E171005AD265 /* QHDashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D737161E69E171005AD265 /* QHDashboardViewController.xib */; };
 		17D7371B1E6A9C6E005AD265 /* QHProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D737191E6A9C6E005AD265 /* QHProfileViewController.swift */; };
 		17D7371C1E6A9C6E005AD265 /* QHProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D7371A1E6A9C6E005AD265 /* QHProfileViewController.xib */; };
+		17D737241E6AA400005AD265 /* QHSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D737221E6AA400005AD265 /* QHSettingsViewController.swift */; };
+		17D737251E6AA400005AD265 /* QHSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D737231E6AA400005AD265 /* QHSettingsViewController.xib */; };
 		17F5A8841E69929600A20B28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8831E69929600A20B28 /* AppDelegate.swift */; };
 		17F5A8861E69929600A20B28 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8851E69929600A20B28 /* FirstViewController.swift */; };
 		17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F5A8871E69929600A20B28 /* SecondViewController.swift */; };
@@ -62,6 +64,8 @@
 		17D737161E69E171005AD265 /* QHDashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHDashboardViewController.xib; sourceTree = "<group>"; };
 		17D737191E6A9C6E005AD265 /* QHProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHProfileViewController.swift; sourceTree = "<group>"; };
 		17D7371A1E6A9C6E005AD265 /* QHProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHProfileViewController.xib; sourceTree = "<group>"; };
+		17D737221E6AA400005AD265 /* QHSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QHSettingsViewController.swift; sourceTree = "<group>"; };
+		17D737231E6AA400005AD265 /* QHSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QHSettingsViewController.xib; sourceTree = "<group>"; };
 		17F5A8801E69929600A20B28 /* QHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17F5A8831E69929600A20B28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17F5A8851E69929600A20B28 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +141,15 @@
 			name = Dashboard;
 			sourceTree = "<group>";
 		};
+		17D737211E6AA3A5005AD265 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				17D737221E6AA400005AD265 /* QHSettingsViewController.swift */,
+				17D737231E6AA400005AD265 /* QHSettingsViewController.xib */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 		17F5A8771E69929500A20B28 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +171,7 @@
 		17F5A8821E69929600A20B28 /* QHealth */ = {
 			isa = PBXGroup;
 			children = (
+				17D737211E6AA3A5005AD265 /* Settings */,
 				17D737141E69E156005AD265 /* Dashboard */,
 				FB4B567E1E69EDD7001F7EB1 /* Custom Cells */,
 				FBAF64C51E69C1D60053CC3B /* Components */,
@@ -367,6 +381,7 @@
 			files = (
 				FB4B56821E69EDE3001F7EB1 /* MenuTableViewCell.xib in Resources */,
 				FBAF64C91E69C2020053CC3B /* SideMenuViewController.xib in Resources */,
+				17D737251E6AA400005AD265 /* QHSettingsViewController.xib in Resources */,
 				FBAF64C41E69AF0C0053CC3B /* Setting.plist in Resources */,
 				17D7370F1E69C19A005AD265 /* QHLoginViewController.xib in Resources */,
 				22757B251E69D9A200F71565 /* FoodViewController.xib in Resources */,
@@ -444,6 +459,7 @@
 			files = (
 				17D736F61E69AA56005AD265 /* QHActivityViewController.swift in Sources */,
 				17D7371B1E6A9C6E005AD265 /* QHProfileViewController.swift in Sources */,
+				17D737241E6AA400005AD265 /* QHSettingsViewController.swift in Sources */,
 				17D737121E69C945005AD265 /* QHProfileContinueViewController.swift in Sources */,
 				17F5A8881E69929600A20B28 /* SecondViewController.swift in Sources */,
 				17D737171E69E171005AD265 /* QHDashboardViewController.swift in Sources */,

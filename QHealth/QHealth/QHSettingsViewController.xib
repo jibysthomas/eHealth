@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QHSettingsViewController" customModule="QHealth" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push notification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iO-Bm-ZSU">
+                    <rect key="frame" x="23" y="115" width="125" height="19"/>
+                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHP-n7-wmd">
+                    <rect key="frame" x="23" y="162" width="67.5" height="19"/>
+                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="o4b-oO-TrC">
+                    <rect key="frame" x="281" y="111" width="69" height="29"/>
+                    <segments>
+                        <segment title="On"/>
+                        <segment title="Off"/>
+                    </segments>
+                </segmentedControl>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="aTk-1D-dTC">
+                    <rect key="frame" x="231" y="158" width="119" height="29"/>
+                    <segments>
+                        <segment title="Enable"/>
+                        <segment title="Disable"/>
+                    </segments>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4iO-Bm-ZSU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="115" id="6je-N7-UKT"/>
+                <constraint firstItem="aTk-1D-dTC" firstAttribute="centerY" secondItem="IHP-n7-wmd" secondAttribute="centerY" id="97u-ss-2cb"/>
+                <constraint firstAttribute="trailing" secondItem="aTk-1D-dTC" secondAttribute="trailing" constant="25" id="DR9-OQ-tcx"/>
+                <constraint firstItem="IHP-n7-wmd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="23" id="IHK-cg-tVT"/>
+                <constraint firstItem="4iO-Bm-ZSU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="23" id="PbY-cJ-V0K"/>
+                <constraint firstItem="o4b-oO-TrC" firstAttribute="centerY" secondItem="4iO-Bm-ZSU" secondAttribute="centerY" id="fo3-bG-h6L"/>
+                <constraint firstItem="IHP-n7-wmd" firstAttribute="top" secondItem="4iO-Bm-ZSU" secondAttribute="bottom" constant="28" id="ogo-zL-eoz"/>
+                <constraint firstAttribute="trailing" secondItem="o4b-oO-TrC" secondAttribute="trailing" constant="25" id="sdY-qI-kBr"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>
