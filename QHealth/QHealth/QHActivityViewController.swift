@@ -23,6 +23,7 @@ class QHActivityViewController: UIViewController {
         super.viewDidLoad()
 
         self.title = "My Activity"
+        Utilities.addNavColor(navController: self.navigationController!)
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "LabelCell")
         // Do any additional setup after loading the view.
     }
